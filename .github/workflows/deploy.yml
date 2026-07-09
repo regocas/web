@@ -1,0 +1,61 @@
+name: Deploy to GitHub Pages
+
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: pages
+  cancel-in-progress: true
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+          cache: npm
+
+      - run: npm ci
+
+      # No custom domain configured yet (no CNAME file at the repo root) means
+      # GitHub Pages serves this project site from /<repo-name>/ instead of
+      # the domain root, so every internal link needs that prefix. Once a
+      # CNAME file is added (Settings > Pages > Custom domain), this switches
+      # to "/" automatically and paths resolve at the domain root instead.
+      - name: Determine path prefix
+        run: |
+          if [ -f CNAME ]; then
+            echo "PATH_PREFIX=/" >> "$GITHUB_ENV"
+          else
+            echo "PATH_PREFIX=/${{ github.event.repository.name }}/" >> "$GITHUB_ENV"
+          fi
+
+      - run: npm run build
+        env:
+          PATH_PREFIX: ${{ env.PATH_PREFIX }}
+
+      - uses: actions/configure-pages@v5
+
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: _site
+
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - id: deployment
+        uses: actions/deploy-pages@v4

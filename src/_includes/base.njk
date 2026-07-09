@@ -1,0 +1,93 @@
+<!doctype html>
+<html lang="{{ i18n[page.lang].htmlLang }}">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>{{ title }} · {{ site.name }}</title>
+  <meta name="description" content="{{ description or summary or site.tagline[page.lang] }}">
+  <link rel="canonical" href="{{ site.url }}{{ page.url }}">
+  {% if translated %}
+  {% for loc in site.locales %}<link rel="alternate" hreflang="{{ loc.code }}" href="{{ site.url }}/{{ loc.code }}/">
+  {% endfor %}<link rel="alternate" hreflang="x-default" href="{{ site.url }}/es/">
+  {% endif %}
+  <link rel="icon" type="image/png" href="{{ '/assets/img/favicon.png' | url }}">
+  <link rel="apple-touch-icon" href="{{ '/assets/img/apple-touch-icon.png' | url }}">
+  <link rel="stylesheet" href="{{ '/assets/css/style.css' | url }}">
+
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="{{ site.name }}">
+  <meta property="og:title" content="{{ title }} · {{ site.name }}">
+  <meta property="og:description" content="{{ description or summary or site.tagline[page.lang] }}">
+  <meta property="og:url" content="{{ site.url }}{{ page.url }}">
+  <meta property="og:image" content="{{ site.url }}/assets/img/logo-social.webp">
+  <meta property="og:locale" content="{{ i18n[page.lang].ogLocale }}">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="{{ title }} · {{ site.name }}">
+  <meta name="twitter:description" content="{{ description or summary or site.tagline[page.lang] }}">
+  <meta name="twitter:image" content="{{ site.url }}/assets/img/logo-social.webp">
+
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "NGO",
+    "name": "{{ site.name }}",
+    "url": "{{ site.url }}",
+    "logo": "{{ site.url }}/assets/img/logo-social.webp",
+    "description": "{{ site.tagline[page.lang] }}"
+  }
+  </script>
+</head>
+{% set events = events | withFallback(page.lang) %}
+{% set home = home | withFallback(page.lang) %}
+{% set upcoming = events | nextUpcoming %}
+<body>
+  <div class="site-topbar">
+    {% if sectionNav and upcoming %}
+    <div class="announce-bar">
+      <div class="wrap announce-bar__inner">
+        <span class="announce-bar__label">{{ home.events.upcomingTag }}</span>
+        <span class="announce-bar__text announce-bar__text--full">{{ upcoming.title }} — {{ upcoming.date | dateLong(page.lang) }}</span>
+        <span class="announce-bar__text announce-bar__text--short">{{ upcoming.date | dateShort(page.lang) }}</span>
+        <a class="announce-bar__link" href="{{ ('/' + page.lang + '/#events') | url }}">{{ i18n[page.lang].viewDetails }}</a>
+      </div>
+    </div>
+    {% endif %}
+
+    <header class="site-header">
+      <div class="wrap site-header__inner">
+        <a class="brand" href="{{ ('/' + page.lang + '/') | url }}">
+          <img src="{{ '/assets/img/logo-header.webp' | url }}" alt="" width="40" height="40">
+          <span>{{ site.name }}</span>
+        </a>
+
+        <div class="nav-desktop">
+          {% include "nav-links.njk" %}
+        </div>
+
+        <details class="nav-toggle">
+          <summary class="nav-toggle__summary" aria-label="{{ i18n[page.lang].menuLabel }}">
+            {% include "icons/menu.svg" %}
+          </summary>
+          <div class="nav-toggle__panel">
+            {% include "nav-links.njk" %}
+          </div>
+        </details>
+      </div>
+    </header>
+  </div>
+
+  <main>
+    {{ content | safe }}
+  </main>
+
+  <footer class="site-footer">
+    <div class="wrap site-footer__inner">
+      <img src="{{ '/assets/img/logo-header.webp' | url }}" alt="">
+      <p>{{ site.name }} · {{ i18n[page.lang].footer.address }}</p>
+      <p>© {{ site.year }} {{ i18n[page.lang].footer.rights }}</p>
+    </div>
+  </footer>
+
+  <script src="{{ '/assets/js/nav.js' | url }}" defer></script>
+</body>
+</html>

@@ -1,0 +1,50 @@
+{
+  "es": [
+    {
+      "date": "2026-08-15",
+      "time": "19:00",
+      "title": "Acto inaugural de la Fundación Martina",
+      "location": "Finca privada en las afueras de A Coruña",
+      "description": "Presentamos la Fundación ante familias, investigadores y colaboradores en una velada de puertas abiertas, con la que damos comienzo a nuestra actividad y a la captación de fondos para los primeros proyectos de investigación."
+    },
+    {
+      "date": "2026-08-31",
+      "time": "18:30",
+      "title": "Charla abierta: avances en la investigación de las ataxias",
+      "location": "Espacio cultural en el centro de A Coruña",
+      "description": "Charla divulgativa y gratuita a cargo de un investigador especializado en neurogenética, sobre el estado actual de la investigación en ataxias y enfermedades raras del movimiento. Abierta a pacientes, familias y público general."
+    }
+  ],
+  "en": [
+    {
+      "date": "2026-08-15",
+      "time": "19:00",
+      "title": "Inaugural event of Fundación Martina",
+      "location": "Private estate on the outskirts of A Coruña",
+      "description": "We're introducing the Foundation to families, researchers and collaborators at an open-house evening, marking the start of our work and the fundraising for our first research projects."
+    },
+    {
+      "date": "2026-08-31",
+      "time": "18:30",
+      "title": "Open talk: advances in ataxia research",
+      "location": "Cultural venue in central A Coruña",
+      "description": "A free public talk by a researcher specialising in neurogenetics, on the current state of research into ataxias and rare movement disorders. Open to patients, families and the general public."
+    }
+  ],
+  "gl": [
+    {
+      "date": "2026-08-15",
+      "time": "19:00",
+      "title": "Acto inaugural da Fundación Martina",
+      "location": "Finca privada nos arredores da Coruña",
+      "description": "Presentamos a Fundación a familias, investigadores e colaboradores nunha velada de portas abertas, coa que damos comezo á nosa actividade e á captación de fondos para os primeiros proxectos de investigación."
+    },
+    {
+      "date": "2026-08-31",
+      "time": "18:30",
+      "title": "Charla aberta: avances na investigación das ataxias",
+      "location": "Espazo cultural no centro da Coruña",
+      "description": "Charla divulgativa e gratuíta a cargo dun investigador especializado en neuroxenética, sobre o estado actual da investigación en ataxias e enfermidades raras do movemento. Aberta a pacientes, familias e público xeral."
+    }
+  ]
+}

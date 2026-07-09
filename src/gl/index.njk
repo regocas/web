@@ -1,0 +1,150 @@
+---
+title: Inicio
+description: "Fundación Martina — investigación, apoio e divulgación sobre ataxias e enfermidades raras."
+sectionNav: true
+translated: true
+---
+{% set home = home | withFallback(page.lang) %}
+{% set events = events | withFallback(page.lang) %}
+{% set projects = projects | withFallback(page.lang) %}
+{% set docs = docs | withFallback(page.lang) %}
+<section class="hero" id="home">
+  <div class="wrap hero__inner">
+    <img class="hero__image" src="{{ '/assets/img/logo-hero.webp' | url }}" alt="Logotipo da Fundación Martina" width="720" height="720">
+    <p class="hero__tagline">{{ site.tagline[page.lang] }}</p>
+    <h1>{{ site.name }}</h1>
+    <p>{{ home.hero.body }}</p>
+    <div class="hero__actions">
+      <a class="button button--donate" href="#donate">{{ i18n[page.lang].donateCta }}</a>
+      <a class="button button--outline" href="#about">{{ home.hero.aboutCta }}</a>
+    </div>
+  </div>
+</section>
+
+<section class="donate-banner" id="donate">
+  <img class="donate-banner__watermark" src="{{ '/assets/img/butterfly-watermark.webp' | url }}" alt="" aria-hidden="true">
+  <div class="wrap donate-banner__inner">
+    <div>
+      <h2>{{ home.donate.heading }}</h2>
+      <p>{{ home.donate.body }}</p>
+    </div>
+    <div>
+      <a class="button button--primary" href="#">{{ home.donate.cta }}</a>
+      <p style="color:rgba(255,255,255,0.75); font-size:0.85rem; margin-top:0.6rem;">
+        {{ home.donate.pending }}
+      </p>
+    </div>
+  </div>
+</section>
+
+<section id="about">
+  <div class="wrap">
+    <div class="section__intro">
+      <p class="section__eyebrow">{{ i18n[page.lang].nav.about }}</p>
+      <h2>{{ site.tagline[page.lang] }}</h2>
+      <p>{{ home.about.intro }}</p>
+    </div>
+    <div class="card-grid">
+      {% for pillar in home.about.pillars %}
+      <div class="card">
+        <div class="pillar-icon pillar-icon--{{ pillar.color }}">{% include "icons/" + pillar.icon + ".svg" %}</div>
+        <h3>{{ pillar.title }}</h3>
+        <p>{{ pillar.body }}</p>
+      </div>
+      {% endfor %}
+    </div>
+  </div>
+</section>
+
+<section id="news" class="section--alt">
+  <div class="wrap">
+    <div class="section__intro">
+      <p class="section__eyebrow">{{ home.news.eyebrow }}</p>
+      <h2>{{ i18n[page.lang].nav.news }}</h2>
+    </div>
+    <div class="card-grid">
+      {% for item in collections.newsGl %}
+      <article class="card">
+        <p class="news-card__date">{{ item.data.date | dateLong(page.lang) }}</p>
+        <h3><a href="{{ item.url }}">{{ item.data.title }}</a></h3>
+        <p>{{ item.data.summary }}</p>
+        <p><a href="{{ item.url }}">{{ home.news.readMore }}</a></p>
+      </article>
+      {% endfor %}
+    </div>
+  </div>
+</section>
+
+<section id="events">
+  <div class="wrap">
+    <div class="section__intro">
+      <p class="section__eyebrow">{{ home.events.eyebrow }}</p>
+      <h2>{{ i18n[page.lang].nav.events }}</h2>
+    </div>
+    {% set upcoming = events | nextUpcoming %}
+    <div class="card-grid">
+      {% for event in events | sortByDate %}
+      <article class="card event-card{% if upcoming and event.date == upcoming.date %} event-card--next{% endif %}">
+        <div class="event-card__header">
+          <div class="date-badge">
+            <span class="date-badge__day">{{ event.date | dateBadgeDay }}</span>
+            <span class="date-badge__month">{{ event.date | dateBadgeMonth(page.lang) }}</span>
+          </div>
+          <div>
+            {% if upcoming and event.date == upcoming.date %}<span class="tag tag--next">{{ home.events.upcomingTag }}</span>{% endif %}
+            <h3>{{ event.title }}</h3>
+            <p class="event-card__meta">{{ event.time }} · {{ event.location }}</p>
+          </div>
+        </div>
+        <p>{{ event.description }}</p>
+      </article>
+      {% endfor %}
+    </div>
+  </div>
+</section>
+
+<section id="research" class="section--alt">
+  <div class="wrap">
+    <div class="section__intro">
+      <p class="section__eyebrow">{{ home.research.eyebrow }}</p>
+      <h2>{{ home.research.heading }}</h2>
+    </div>
+    <div class="card-grid">
+      {% if projects.length %}
+        {% for project in projects %}
+        <div class="card">
+          <span class="tag tag--status">{{ project.status }}</span>
+          <h3>{{ project.title }}</h3>
+          <p class="event-card__meta">{{ project.institution }}</p>
+          <p>{{ project.description }}</p>
+        </div>
+        {% endfor %}
+      {% else %}
+        <div class="card card--placeholder">{{ home.research.empty }}</div>
+      {% endif %}
+    </div>
+  </div>
+</section>
+
+<section id="docs">
+  <div class="wrap">
+    <div class="section__intro">
+      <p class="section__eyebrow">{{ home.docs.eyebrow }}</p>
+      <h2>{{ home.docs.heading }}</h2>
+      <p>{{ home.docs.intro }}</p>
+    </div>
+    <ul class="doc-list">
+      {% for doc in docs %}
+      <li>
+        <div>
+          <h3>{{ doc.title }}</h3>
+          <p>{{ doc.description }}</p>
+        </div>
+        <div class="doc-list__actions">
+          <a class="button button--outline" href="{{ doc.file | url }}">{{ home.docs.download }}</a>
+        </div>
+      </li>
+      {% endfor %}
+    </ul>
+  </div>
+</section>

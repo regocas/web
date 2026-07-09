@@ -1,0 +1,18 @@
+{% if sectionNav %}
+<nav class="site-nav" aria-label="Principal">
+  <a href="{{ ('/' + page.lang + '/#about') | url }}">{{ i18n[page.lang].nav.about }}</a>
+  <a href="{{ ('/' + page.lang + '/#news') | url }}">{{ i18n[page.lang].nav.news }}</a>
+  <a href="{{ ('/' + page.lang + '/#events') | url }}">{{ i18n[page.lang].nav.events }}</a>
+  <a href="{{ ('/' + page.lang + '/#research') | url }}">{{ i18n[page.lang].nav.research }}</a>
+  <a href="{{ ('/' + page.lang + '/#docs') | url }}">{{ i18n[page.lang].nav.docs }}</a>
+</nav>
+{% endif %}
+
+<div class="site-header__actions">
+  <div class="lang-switch" aria-label="{{ i18n[page.lang].languageLabel }}">
+    {% for loc in site.locales %}<a href="{{ (translationKey | translatedUrl(loc.code, collections)) or (('/' + loc.code + '/') | url) }}"{% if loc.code == page.lang %} aria-current="page"{% endif %}>{{ loc.code | upper }}</a>{% endfor %}
+  </div>
+  {% if sectionNav %}
+  <a class="button button--donate" href="{{ ('/' + page.lang + '/#donate') | url }}">{{ i18n[page.lang].nav.donate }}</a>
+  {% endif %}
+</div>

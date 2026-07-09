@@ -1,0 +1,68 @@
+{
+  "es": [
+    {
+      "title": "Carta Fundacional y Estatutos",
+      "description": "Constitución, fines y régimen de gobierno de la Fundación.",
+      "file": "/assets/docs/estatutos.pdf"
+    },
+    {
+      "title": "Código de Buen Gobierno",
+      "description": "Principios de integridad, transparencia y responsabilidad institucional.",
+      "file": "/assets/docs/codigo-buen-gobierno.pdf"
+    },
+    {
+      "title": "Reglamento del Comité Científico Asesor",
+      "description": "Funcionamiento, independencia y trazabilidad científica.",
+      "file": "/assets/docs/comite-cientifico.pdf"
+    },
+    {
+      "title": "Reglamento del Patronato",
+      "description": "Organización, funcionamiento y trazabilidad del órgano de gobierno.",
+      "file": "/assets/docs/patronato.pdf"
+    }
+  ],
+  "en": [
+    {
+      "title": "Founding Charter and Bylaws",
+      "description": "Constitution, purpose and governance of the Foundation.",
+      "file": "/assets/docs/estatutos.pdf"
+    },
+    {
+      "title": "Code of Good Governance",
+      "description": "Principles of integrity, transparency and institutional accountability.",
+      "file": "/assets/docs/codigo-buen-gobierno.pdf"
+    },
+    {
+      "title": "Scientific Advisory Committee Regulations",
+      "description": "Operation, independence and scientific traceability.",
+      "file": "/assets/docs/comite-cientifico.pdf"
+    },
+    {
+      "title": "Board of Trustees Regulations",
+      "description": "Organisation, operation and traceability of the governing body.",
+      "file": "/assets/docs/patronato.pdf"
+    }
+  ],
+  "gl": [
+    {
+      "title": "Carta Fundacional e Estatutos",
+      "description": "Constitución, fins e réxime de goberno da Fundación.",
+      "file": "/assets/docs/estatutos.pdf"
+    },
+    {
+      "title": "Código de Bo Goberno",
+      "description": "Principios de integridade, transparencia e responsabilidade institucional.",
+      "file": "/assets/docs/codigo-buen-gobierno.pdf"
+    },
+    {
+      "title": "Regulamento do Comité Científico Asesor",
+      "description": "Funcionamento, independencia e trazabilidade científica.",
+      "file": "/assets/docs/comite-cientifico.pdf"
+    },
+    {
+      "title": "Regulamento do Padroado",
+      "description": "Organización, funcionamento e trazabilidade do órgano de goberno.",
+      "file": "/assets/docs/patronato.pdf"
+    }
+  ]
+}
