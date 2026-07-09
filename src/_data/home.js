@@ -17,7 +17,7 @@ export default {
       pillars: [
         { icon: "microscope", color: "teal", title: "Investigamos", body: "Impulsamos y financiamos investigación científica, clínica y genética sobre ataxias y enfermedades raras, en colaboración con hospitales, universidades y centros de investigación." },
         { icon: "heart", color: "rose", title: "Apoyamos", body: "Acompañamos a pacientes y familias con información, orientación y apoyo, especialmente cuando las personas afectadas son menores o se encuentran en situación de vulnerabilidad." },
-        { icon: "butterfly", color: "blue", title: "Transformamos", body: "Convertimos la incertidumbre en conocimiento y el aislamiento en acompañamiento, divulgando la ciencia con rigor y sensibilizando a la sociedad sobre las enfermedades raras." },
+        { icon: "butterfly", color: "violet", title: "Transformamos", body: "Convertimos la incertidumbre en conocimiento y el aislamiento en acompañamiento, divulgando la ciencia con rigor y sensibilizando a la sociedad sobre las enfermedades raras." },
       ],
     },
     news: {
@@ -57,7 +57,7 @@ export default {
       pillars: [
         { icon: "microscope", color: "teal", title: "We research", body: "We drive and fund scientific, clinical and genetic research into ataxias and rare diseases, in collaboration with hospitals, universities and research centres." },
         { icon: "heart", color: "rose", title: "We support", body: "We support patients and families with information, guidance and support, especially when those affected are minors or in situations of vulnerability." },
-        { icon: "butterfly", color: "blue", title: "We transform", body: "We turn uncertainty into knowledge and isolation into companionship, sharing science with rigour and raising public awareness of rare diseases." },
+        { icon: "butterfly", color: "violet", title: "We transform", body: "We turn uncertainty into knowledge and isolation into companionship, sharing science with rigour and raising public awareness of rare diseases." },
       ],
     },
     news: {
@@ -97,7 +97,7 @@ export default {
       pillars: [
         { icon: "microscope", color: "teal", title: "Investigamos", body: "Impulsamos e financiamos investigación científica, clínica e xenética sobre ataxias e enfermidades raras, en colaboración con hospitais, universidades e centros de investigación." },
         { icon: "heart", color: "rose", title: "Apoiamos", body: "Acompañamos a pacientes e familias con información, orientación e apoio, especialmente cando as persoas afectadas son menores ou se atopan en situación de vulnerabilidade." },
-        { icon: "butterfly", color: "blue", title: "Transformamos", body: "Convertimos a incerteza en coñecemento e o illamento en acompañamento, divulgando a ciencia con rigor e sensibilizando á sociedade sobre as enfermidades raras." },
+        { icon: "butterfly", color: "violet", title: "Transformamos", body: "Convertimos a incerteza en coñecemento e o illamento en acompañamento, divulgando a ciencia con rigor e sensibilizando á sociedade sobre as enfermidades raras." },
       ],
     },
     news: {

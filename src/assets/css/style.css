@@ -6,7 +6,7 @@
   --color-teal-light: #7ebcb6;
   --color-rose: #c85073;
   --color-rose-dark: #a83f5d;
-  --color-blue: #1172ad;
+  --color-violet: #653fa6;
   --color-lavender: #bfc1da;
 
   --color-ink: #1c2624;
@@ -680,7 +680,7 @@ section {
 
 .pillar-icon--teal { background: var(--color-teal); }
 .pillar-icon--rose { background: var(--color-rose); }
-.pillar-icon--blue { background: var(--color-blue); }
+.pillar-icon--violet { background: var(--color-violet); }
 
 /* Documents list */
 
