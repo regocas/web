@@ -11,7 +11,7 @@ translated: true
 <section class="hero" id="home">
   <div class="wrap hero__inner">
     <img class="hero__image" src="{{ '/assets/img/logo-hero.webp' | url }}" alt="Fundación Martina logo" width="720" height="720">
-    <p class="hero__tagline">{{ site.tagline[page.lang] }}</p>
+    <p class="hero__tagline">{% for w in site.tagline[page.lang] %}<span class="tagline-word tagline-word--{{ w.color }}">{{ w.word }}</span>{% if not loop.last %} · {% endif %}{% endfor %}</p>
     <h1>{{ site.name }}</h1>
     <p>{{ home.hero.body }}</p>
     <div class="hero__actions">

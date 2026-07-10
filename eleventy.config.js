@@ -107,6 +107,10 @@ export default function (eleventyConfig) {
     return mergeWithFallback(value.es, value[lang] || {});
   });
 
+  eleventyConfig.addFilter("joinWords", (words, sep) =>
+    words.map((w) => w.word).join(sep || " · ")
+  );
+
   return {
     // Set by CI to "/<repo-name>/" for GitHub Pages project sites without a
     // custom domain. Left as "/" for local dev and for a custom-domain deploy.

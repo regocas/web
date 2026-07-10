@@ -4,7 +4,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>{{ title }} · {{ site.name }}</title>
-  <meta name="description" content="{{ description or summary or site.tagline[page.lang] }}">
+  <meta name="description" content="{{ description or summary or (site.tagline[page.lang] | joinWords) }}">
   <link rel="canonical" href="{{ site.url }}{{ page.url }}">
   {% if translated %}
   {% for loc in site.locales %}<link rel="alternate" hreflang="{{ loc.code }}" href="{{ site.url }}/{{ loc.code }}/">
@@ -17,13 +17,13 @@
   <meta property="og:type" content="website">
   <meta property="og:site_name" content="{{ site.name }}">
   <meta property="og:title" content="{{ title }} · {{ site.name }}">
-  <meta property="og:description" content="{{ description or summary or site.tagline[page.lang] }}">
+  <meta property="og:description" content="{{ description or summary or (site.tagline[page.lang] | joinWords) }}">
   <meta property="og:url" content="{{ site.url }}{{ page.url }}">
   <meta property="og:image" content="{{ site.url }}/assets/img/logo-social.webp">
   <meta property="og:locale" content="{{ i18n[page.lang].ogLocale }}">
   <meta name="twitter:card" content="summary_large_image">
   <meta name="twitter:title" content="{{ title }} · {{ site.name }}">
-  <meta name="twitter:description" content="{{ description or summary or site.tagline[page.lang] }}">
+  <meta name="twitter:description" content="{{ description or summary or (site.tagline[page.lang] | joinWords) }}">
   <meta name="twitter:image" content="{{ site.url }}/assets/img/logo-social.webp">
 
   <script type="application/ld+json">
@@ -33,7 +33,7 @@
     "name": "{{ site.name }}",
     "url": "{{ site.url }}",
     "logo": "{{ site.url }}/assets/img/logo-social.webp",
-    "description": "{{ site.tagline[page.lang] }}"
+    "description": "{{ site.tagline[page.lang] | joinWords }}"
   }
   </script>
 </head>
@@ -82,9 +82,34 @@
 
   <footer class="site-footer">
     <div class="wrap site-footer__inner">
-      <img src="{{ '/assets/img/logo-header.webp' | url }}" alt="">
-      <p>{{ site.name }} · {{ i18n[page.lang].footer.address }}</p>
-      <p>© {{ site.year }} {{ i18n[page.lang].footer.rights }}</p>
+      <div class="site-footer__cols">
+        <div class="site-footer__brand">
+          <a href="{{ ('/' + page.lang + '/') | url }}">
+            <img src="{{ '/assets/img/logo-footer.webp' | url }}" alt="{{ site.name }}" width="128" height="134">
+          </a>
+        </div>
+
+        <div class="site-footer__col">
+          <h3>{{ i18n[page.lang].footer.explore }}</h3>
+          <ul>
+            <li><a href="{{ ('/' + page.lang + '/#about') | url }}">{{ i18n[page.lang].nav.about }}</a></li>
+            <li><a href="{{ ('/' + page.lang + '/#news') | url }}">{{ i18n[page.lang].nav.news }}</a></li>
+            <li><a href="{{ ('/' + page.lang + '/#events') | url }}">{{ i18n[page.lang].nav.events }}</a></li>
+            <li><a href="{{ ('/' + page.lang + '/#research') | url }}">{{ i18n[page.lang].nav.research }}</a></li>
+            <li><a href="{{ ('/' + page.lang + '/#docs') | url }}">{{ i18n[page.lang].nav.docs }}</a></li>
+          </ul>
+        </div>
+
+        <div class="site-footer__col">
+          <h3>{{ i18n[page.lang].footer.contact }}</h3>
+          <address>
+            {% for line in i18n[page.lang].footer.address %}<span>{{ line }}</span>
+            {% endfor %}
+          </address>
+        </div>
+      </div>
+
+      <p class="site-footer__copyright">© {{ site.year }} {{ site.name }}</p>
     </div>
   </footer>
 

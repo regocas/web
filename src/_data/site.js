@@ -4,9 +4,21 @@ export default {
   url: "https://fundacionmartina.org",
   year: 2026,
   tagline: {
-    es: "Investigamos · Apoyamos · Transformamos",
-    en: "We research · We support · We transform",
-    gl: "Investigamos · Apoiamos · Transformamos",
+    es: [
+      { word: "Investigamos", color: "teal" },
+      { word: "Apoyamos", color: "rose" },
+      { word: "Transformamos", color: "blue" },
+    ],
+    en: [
+      { word: "We research", color: "teal" },
+      { word: "We support", color: "rose" },
+      { word: "We transform", color: "blue" },
+    ],
+    gl: [
+      { word: "Investigamos", color: "teal" },
+      { word: "Apoiamos", color: "rose" },
+      { word: "Transformamos", color: "blue" },
+    ],
   },
   locales: [
     { code: "es", label: "Español" },
