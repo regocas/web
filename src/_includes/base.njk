@@ -80,6 +80,13 @@
     {{ content | safe }}
   </main>
 
+  {% if sectionNav %}
+  {% set fromColor = "var(--color-paper)" %}
+  {% set toColor = "var(--color-paper-alt)" %}
+  {% set variant = "a" %}
+  {% include "wing-divider.njk" %}
+  {% endif %}
+
   <footer class="site-footer">
     <div class="wrap site-footer__inner">
       <div class="site-footer__cols">

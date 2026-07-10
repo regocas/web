@@ -1,0 +1,9 @@
+<div class="wing-divider" aria-hidden="true" style="background: {{ fromColor }};">
+  <svg viewBox="0 0 1440 100" preserveAspectRatio="none">
+    {% if variant == "b" %}
+    <path d="M0,42 C 460,134 1020,-6 1440,58 L1440,100 L0,100 Z" fill="{{ toColor }}"></path>
+    {% else %}
+    <path d="M0,58 C 420,-6 980,132 1440,42 L1440,100 L0,100 Z" fill="{{ toColor }}"></path>
+    {% endif %}
+  </svg>
+</div>
