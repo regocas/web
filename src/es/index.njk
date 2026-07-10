@@ -66,9 +66,9 @@ translated: true
       {% for item in collections.newsEs %}
       <article class="card">
         <p class="news-card__date">{{ item.data.date | dateLong(page.lang) }}</p>
-        <h3><a href="{{ item.url }}">{{ item.data.title }}</a></h3>
+        <h3><a href="{{ item.url | url }}">{{ item.data.title }}</a></h3>
         <p>{{ item.data.summary }}</p>
-        <p><a href="{{ item.url }}">{{ home.news.readMore }}</a></p>
+        <p><a href="{{ item.url | url }}">{{ home.news.readMore }}</a></p>
       </article>
       {% endfor %}
     </div>
