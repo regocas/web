@@ -6,7 +6,8 @@
   --color-teal-light: #7ebcb6;
   --color-rose: #c85073;
   --color-rose-dark: #a83f5d;
-  --color-violet: #653fa6;
+  --color-blue: #1172ad;
+  --color-blue-dark: #0e5b8a;
   --color-lavender: #bfc1da;
 
   --color-ink: #1c2624;
@@ -680,7 +681,15 @@ section {
 
 .pillar-icon--teal { background: var(--color-teal); }
 .pillar-icon--rose { background: var(--color-rose); }
-.pillar-icon--violet { background: var(--color-violet); }
+.pillar-icon--blue { background: var(--color-blue); }
+
+.card--teal { border-top: 3px solid var(--color-teal); }
+.card--rose { border-top: 3px solid var(--color-rose); }
+.card--blue { border-top: 3px solid var(--color-blue); }
+
+.card--teal h3, .tagline-word--teal { color: var(--color-teal-dark); }
+.card--rose h3, .tagline-word--rose { color: var(--color-rose-dark); }
+.card--blue h3, .tagline-word--blue { color: var(--color-blue-dark); }
 
 /* Documents list */
 
