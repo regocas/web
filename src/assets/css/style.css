@@ -6,6 +6,7 @@
   --color-teal-light: #7ebcb6;
   --color-rose: #c85073;
   --color-rose-dark: #a83f5d;
+  --color-rose-darker: #8f364f;
   --color-blue: #1172ad;
   --color-blue-dark: #0e5b8a;
   --color-lavender: #bfc1da;
@@ -174,13 +175,13 @@ img {
 
 .button--donate,
 .button--primary {
-  background: var(--color-rose);
+  background: var(--color-rose-dark);
   color: #fff;
 }
 
 .button--donate:hover,
 .button--primary:hover {
-  background: var(--color-rose-dark);
+  background: var(--color-rose-darker);
   color: #fff;
 }
 
@@ -197,7 +198,7 @@ img {
 /* Announcement bar */
 
 .announce-bar {
-  background: var(--color-rose);
+  background: var(--color-rose-dark);
   color: #fff;
   font-size: 0.9rem;
 }
@@ -215,7 +216,7 @@ img {
   text-transform: uppercase;
   letter-spacing: 0.05em;
   font-size: 0.72rem;
-  background: rgba(255, 255, 255, 0.22);
+  background: rgba(255, 255, 255, 0.12);
   padding: 0.15rem 0.55rem;
   border-radius: 999px;
 }
@@ -644,7 +645,7 @@ section {
 }
 
 .event-card--next .date-badge {
-  background: var(--color-rose);
+  background: var(--color-rose-dark);
 }
 
 .event-card__meta {
