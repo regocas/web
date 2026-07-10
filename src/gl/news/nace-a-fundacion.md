@@ -16,7 +16,7 @@ carácter neurodexenerativo. A súa historia, e a das moitas familias que atrave
 situación similar, é o punto de partida dun proxecto que quere transformar a incerteza en
 coñecemento, e o illamento en acompañamento.
 
-![Logotipo da Fundación Martina](/assets/img/logo-hero.webp)
+![Logotipo da Fundación Martina]({{ '/assets/img/logo-hero.webp' | url }})
 
 Desde a súa constitución, a Fundación márcase tres liñas de traballo que resumen a nosa
 razón de ser: **investigar**, financiando e promovendo proxectos científicos sobre

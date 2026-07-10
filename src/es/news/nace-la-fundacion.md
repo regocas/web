@@ -16,7 +16,7 @@ carácter neurodegenerativo. Su historia, y la de las muchas familias que atravi
 situación similar, es el punto de partida de un proyecto que quiere transformar la
 incertidumbre en conocimiento, y el aislamiento en acompañamiento.
 
-![Logotipo de la Fundación Martina](/assets/img/logo-hero.webp)
+![Logotipo de la Fundación Martina]({{ '/assets/img/logo-hero.webp' | url }})
 
 Desde su constitución, la Fundación se marca tres líneas de trabajo que resumen nuestra razón
 de ser: **investigar**, financiando y promoviendo proyectos científicos sobre ataxias y

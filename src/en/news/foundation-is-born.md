@@ -15,7 +15,7 @@ neurodegenerative ataxia. Her story, and that of the many families facing a simi
 situation, is the starting point of a project that aims to turn uncertainty into
 knowledge, and isolation into companionship.
 
-![Fundación Martina logo](/assets/img/logo-hero.webp)
+![Fundación Martina logo]({{ '/assets/img/logo-hero.webp' | url }})
 
 Since its founding, the Foundation has set out three lines of work that sum up our
 purpose: **researching**, by funding and promoting scientific projects on ataxias and
