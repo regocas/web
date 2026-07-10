@@ -1,10 +1,10 @@
 {% if sectionNav %}
 <nav class="site-nav" aria-label="Principal">
-  <a href="{{ ('/' + page.lang + '/#about') | url }}">{{ i18n[page.lang].nav.about }}</a>
-  <a href="{{ ('/' + page.lang + '/#news') | url }}">{{ i18n[page.lang].nav.news }}</a>
-  <a href="{{ ('/' + page.lang + '/#events') | url }}">{{ i18n[page.lang].nav.events }}</a>
-  <a href="{{ ('/' + page.lang + '/#research') | url }}">{{ i18n[page.lang].nav.research }}</a>
-  <a href="{{ ('/' + page.lang + '/#docs') | url }}">{{ i18n[page.lang].nav.docs }}</a>
+  <a href="{{ ('/' + page.lang + '/#about') | url }}">{{ i18n[page.lang].nav.about }}{% include "icons/neuron.svg" %}</a>
+  <a href="{{ ('/' + page.lang + '/#news') | url }}">{{ i18n[page.lang].nav.news }}{% include "icons/neuron.svg" %}</a>
+  <a href="{{ ('/' + page.lang + '/#events') | url }}">{{ i18n[page.lang].nav.events }}{% include "icons/neuron.svg" %}</a>
+  <a href="{{ ('/' + page.lang + '/#research') | url }}">{{ i18n[page.lang].nav.research }}{% include "icons/neuron.svg" %}</a>
+  <a href="{{ ('/' + page.lang + '/#docs') | url }}">{{ i18n[page.lang].nav.docs }}{% include "icons/neuron.svg" %}</a>
 </nav>
 {% endif %}
 

@@ -48,7 +48,7 @@ translated: true
       {% for pillar in home.about.pillars %}
       <div class="card card--{{ pillar.color }}">
         <div class="pillar-icon pillar-icon--{{ pillar.color }}">{% include "icons/" + pillar.icon + ".svg" %}</div>
-        <h3>{{ pillar.title }}</h3>
+        <h3 class="pillar-title">{{ pillar.title }}{% include "icons/neuron.svg" %}</h3>
         <p>{{ pillar.body }}</p>
       </div>
       {% endfor %}
@@ -71,9 +71,9 @@ translated: true
       {% for item in collections.newsEs %}
       <article class="card">
         <p class="news-card__date">{{ item.data.date | dateLong(page.lang) }}</p>
-        <h3><a href="{{ item.url | url }}">{{ item.data.title }}</a></h3>
+        <h3><a href="{{ item.url | url }}">{{ item.data.title }}{% include "icons/neuron.svg" %}</a></h3>
         <p>{{ item.data.summary }}</p>
-        <p><a href="{{ item.url | url }}">{{ home.news.readMore }}</a></p>
+        <p><a href="{{ item.url | url }}">{{ home.news.readMore }}{% include "icons/neuron.svg" %}</a></p>
       </article>
       {% endfor %}
     </div>

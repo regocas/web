@@ -707,6 +707,52 @@ section {
 .card--rose h3, .tagline-word--rose { color: var(--color-rose-dark); }
 .card--blue h3, .tagline-word--blue { color: var(--color-blue-dark); }
 
+/* Neuron-dot hover accent */
+
+.neuron {
+  flex-shrink: 0;
+  width: 15px;
+  height: 15px;
+  opacity: 0;
+  transform: scale(0.4);
+  transition: opacity 0.18s ease, transform 0.18s ease;
+}
+
+.site-nav a,
+.site-footer__col a,
+.card h3 a,
+.card p a {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.35rem;
+}
+
+.pillar-title {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4rem;
+}
+
+.site-nav a:hover .neuron,
+.site-nav a:focus-visible .neuron,
+.site-footer__col a:hover .neuron,
+.site-footer__col a:focus-visible .neuron,
+.card h3 a:hover .neuron,
+.card h3 a:focus-visible .neuron,
+.card p a:hover .neuron,
+.card p a:focus-visible .neuron,
+.card:hover .pillar-title .neuron,
+.card:focus-within .pillar-title .neuron {
+  opacity: 1;
+  transform: scale(1);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .neuron {
+    transition: none;
+  }
+}
+
 /* Documents list */
 
 .doc-list {
