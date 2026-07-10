@@ -10,7 +10,7 @@
 
 <div class="site-header__actions">
   <div class="lang-switch" aria-label="{{ i18n[page.lang].languageLabel }}">
-    {% for loc in site.locales %}<a href="{{ (translationKey | translatedUrl(loc.code, collections)) or (('/' + loc.code + '/') | url) }}"{% if loc.code == page.lang %} aria-current="page"{% endif %}>{{ loc.code | upper }}</a>{% endfor %}
+    {% for loc in site.locales %}<a href="{{ ((translationKey | translatedUrl(loc.code, collections)) or ('/' + loc.code + '/')) | url }}"{% if loc.code == page.lang %} aria-current="page"{% endif %}>{{ loc.code | upper }}</a>{% endfor %}
   </div>
   {% if sectionNav %}
   <a class="button button--donate" href="{{ ('/' + page.lang + '/#donate') | url }}">{{ i18n[page.lang].nav.donate }}</a>
