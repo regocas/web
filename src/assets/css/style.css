@@ -76,7 +76,7 @@ body {
   font-style: normal;
   font-weight: 400;
   font-display: swap;
-  src: url("/assets/fonts/inter-latin-400-normal.woff2") format("woff2");
+  src: url("../fonts/inter-latin-400-normal.woff2") format("woff2");
   unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+2000-206F, U+20AC;
 }
 @font-face {
@@ -84,7 +84,7 @@ body {
   font-style: normal;
   font-weight: 400;
   font-display: swap;
-  src: url("/assets/fonts/inter-latin-ext-400-normal.woff2") format("woff2");
+  src: url("../fonts/inter-latin-ext-400-normal.woff2") format("woff2");
   unicode-range: U+0100-024F, U+1E00-1EFF;
 }
 @font-face {
@@ -92,7 +92,7 @@ body {
   font-style: normal;
   font-weight: 600;
   font-display: swap;
-  src: url("/assets/fonts/inter-latin-600-normal.woff2") format("woff2");
+  src: url("../fonts/inter-latin-600-normal.woff2") format("woff2");
   unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+2000-206F, U+20AC;
 }
 @font-face {
@@ -100,7 +100,7 @@ body {
   font-style: normal;
   font-weight: 600;
   font-display: swap;
-  src: url("/assets/fonts/inter-latin-ext-600-normal.woff2") format("woff2");
+  src: url("../fonts/inter-latin-ext-600-normal.woff2") format("woff2");
   unicode-range: U+0100-024F, U+1E00-1EFF;
 }
 @font-face {
@@ -108,7 +108,7 @@ body {
   font-style: normal;
   font-weight: 700;
   font-display: swap;
-  src: url("/assets/fonts/inter-latin-700-normal.woff2") format("woff2");
+  src: url("../fonts/inter-latin-700-normal.woff2") format("woff2");
   unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+2000-206F, U+20AC;
 }
 @font-face {
@@ -116,7 +116,7 @@ body {
   font-style: normal;
   font-weight: 700;
   font-display: swap;
-  src: url("/assets/fonts/inter-latin-ext-700-normal.woff2") format("woff2");
+  src: url("../fonts/inter-latin-ext-700-normal.woff2") format("woff2");
   unicode-range: U+0100-024F, U+1E00-1EFF;
 }
 
@@ -449,7 +449,7 @@ img {
   max-width: 62%;
   margin-inline-start: 1.5rem;
   margin-bottom: 1rem;
-  shape-outside: url("/assets/img/logo-hero.webp");
+  shape-outside: url("../img/logo-hero.webp");
   shape-image-threshold: 0.4;
   shape-margin: 2rem;
 }
