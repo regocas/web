@@ -19,12 +19,12 @@
   <meta property="og:title" content="{{ title }} · {{ site.name }}">
   <meta property="og:description" content="{{ description or summary or (site.tagline[page.lang] | joinWords) }}">
   <meta property="og:url" content="{{ site.url }}{{ page.url }}">
-  <meta property="og:image" content="{{ site.url }}/assets/img/logo-social.webp">
+  <meta property="og:image" content="{{ site.url }}{{ '/assets/img/logo-social.webp' | url }}">
   <meta property="og:locale" content="{{ i18n[page.lang].ogLocale }}">
   <meta name="twitter:card" content="summary_large_image">
   <meta name="twitter:title" content="{{ title }} · {{ site.name }}">
   <meta name="twitter:description" content="{{ description or summary or (site.tagline[page.lang] | joinWords) }}">
-  <meta name="twitter:image" content="{{ site.url }}/assets/img/logo-social.webp">
+  <meta name="twitter:image" content="{{ site.url }}{{ '/assets/img/logo-social.webp' | url }}">
 
   <script type="application/ld+json">
   {
@@ -32,7 +32,7 @@
     "@type": "NGO",
     "name": "{{ site.name }}",
     "url": "{{ site.url }}",
-    "logo": "{{ site.url }}/assets/img/logo-social.webp",
+    "logo": "{{ site.url }}{{ '/assets/img/logo-social.webp' | url }}",
     "description": "{{ site.tagline[page.lang] | joinWords }}"
   }
   </script>
