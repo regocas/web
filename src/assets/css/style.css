@@ -197,6 +197,12 @@ img {
   color: #fff;
 }
 
+.donate-icon {
+  flex-shrink: 0;
+  width: 1.1em;
+  height: 1.1em;
+}
+
 .button--donate:hover,
 .button--primary:hover {
   background: var(--color-rose-darker);

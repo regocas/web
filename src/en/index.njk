@@ -15,7 +15,7 @@ translated: true
     <h1>{{ site.name }}</h1>
     <p>{{ home.hero.body }}</p>
     <div class="hero__actions">
-      <a class="button button--donate" href="#donate">{{ i18n[page.lang].donateCta }}</a>
+      <a class="button button--donate" href="#donate">{% include "icons/butterfly.svg" %}{{ i18n[page.lang].donateCta }}</a>
       <a class="button button--outline" href="#about">{{ home.hero.aboutCta }}</a>
     </div>
   </div>
@@ -29,7 +29,7 @@ translated: true
       <p>{{ home.donate.body }}</p>
     </div>
     <div>
-      <a class="button button--primary" href="#">{{ home.donate.cta }}</a>
+      <a class="button button--primary" href="#">{% include "icons/butterfly.svg" %}{{ home.donate.cta }}</a>
       <p style="color:rgba(255,255,255,0.75); font-size:0.85rem; margin-top:0.6rem;">
         {{ home.donate.pending }}
       </p>
