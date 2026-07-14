@@ -734,6 +734,98 @@ section {
 .card--rose h3, .tagline-word--rose { color: var(--color-rose-dark); }
 .card--blue h3, .tagline-word--blue { color: var(--color-blue-dark); }
 
+/* Team */
+
+.team {
+  margin-top: 3rem;
+}
+
+.team-group + .team-group {
+  margin-top: 2rem;
+}
+
+.team-group {
+  padding: 1.75rem;
+  border-radius: calc(var(--radius) * 2);
+  background: color-mix(in srgb, var(--ring-color) 8%, var(--color-surface));
+  border: 1px solid color-mix(in srgb, var(--ring-color) 20%, transparent);
+}
+
+.team-group h3 {
+  margin-bottom: 1.25rem;
+}
+
+.team-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(13rem, 1fr));
+  gap: 1.5rem;
+}
+
+.team-card {
+  text-align: center;
+}
+
+.team-card__photo {
+  width: 5.5rem;
+  height: 5.5rem;
+  border-radius: 50%;
+  margin: 0 auto 0.85rem;
+  object-fit: cover;
+  box-shadow: 0 0 0 3px var(--color-surface), 0 0 0 5px var(--ring-color, var(--color-border));
+}
+
+.team-group--technical { --ring-color: var(--color-teal); }
+.team-group--board { --ring-color: var(--color-rose); }
+
+.team-card h5 {
+  margin: 0;
+  font-size: 1.05rem;
+}
+
+.team-card__role {
+  margin: 0.2rem 0 0;
+  color: var(--color-muted);
+  font-size: 0.88rem;
+}
+
+.team-card__bio {
+  margin-top: 0.75rem;
+}
+
+.team-card__bio summary {
+  position: relative;
+  display: inline-block;
+  cursor: pointer;
+  color: var(--color-teal);
+  text-decoration: underline;
+  font-size: 0.88rem;
+}
+
+.team-card__bio summary:hover {
+  color: var(--color-rose);
+}
+
+.team-card__bio summary .neuron {
+  position: absolute;
+  top: 50%;
+  left: 100%;
+  margin-left: 0.35rem;
+  transform: translateY(-50%) scale(0.4);
+}
+
+.team-card__bio summary:hover .neuron,
+.team-card__bio summary:focus-visible .neuron {
+  opacity: 1;
+  transform: translateY(-50%) scale(1);
+}
+
+.team-card__bio p {
+  margin: 0.6rem 0 0;
+  text-align: left;
+  font-size: 0.92rem;
+  color: var(--color-ink);
+}
+
 /* Neuron-dot hover accent */
 
 .neuron {

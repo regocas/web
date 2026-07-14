@@ -19,6 +19,11 @@ export default {
         { icon: "heart", color: "rose", title: "Apoyamos", body: "Acompañamos a pacientes y familias con información, orientación y apoyo, especialmente cuando las personas afectadas son menores o se encuentran en situación de vulnerabilidad." },
         { icon: "butterfly", color: "blue", title: "Transformamos", body: "Convertimos la incertidumbre en conocimiento y el aislamiento en acompañamiento, divulgando la ciencia con rigor y sensibilizando a la sociedad sobre las enfermedades raras." },
       ],
+      team: {
+        technicalGroup: "Comité técnico",
+        boardGroup: "Patronato",
+        bioToggle: "Ver biografía →",
+      },
     },
     news: {
       eyebrow: "Actualidad",
@@ -59,6 +64,11 @@ export default {
         { icon: "heart", color: "rose", title: "We support", body: "We support patients and families with information, guidance and support, especially when those affected are minors or in situations of vulnerability." },
         { icon: "butterfly", color: "blue", title: "We transform", body: "We turn uncertainty into knowledge and isolation into companionship, sharing science with rigour and raising public awareness of rare diseases." },
       ],
+      team: {
+        technicalGroup: "Technical committee",
+        boardGroup: "Board of trustees",
+        bioToggle: "Read biography →",
+      },
     },
     news: {
       eyebrow: "Latest",
@@ -99,6 +109,11 @@ export default {
         { icon: "heart", color: "rose", title: "Apoiamos", body: "Acompañamos a pacientes e familias con información, orientación e apoio, especialmente cando as persoas afectadas son menores ou se atopan en situación de vulnerabilidade." },
         { icon: "butterfly", color: "blue", title: "Transformamos", body: "Convertimos a incerteza en coñecemento e o illamento en acompañamento, divulgando a ciencia con rigor e sensibilizando á sociedade sobre as enfermidades raras." },
       ],
+      team: {
+        technicalGroup: "Comité técnico",
+        boardGroup: "Padroado",
+        bioToggle: "Ver biografía →",
+      },
     },
     news: {
       eyebrow: "Actualidade",

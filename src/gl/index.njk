@@ -8,6 +8,7 @@ translated: true
 {% set events = events | withFallback(page.lang) %}
 {% set projects = projects | withFallback(page.lang) %}
 {% set docs = docs | withFallback(page.lang) %}
+{% set team = team | withFallback(page.lang) %}
 <section class="hero" id="home">
   <div class="wrap hero__inner">
     <img class="hero__image" src="{{ '/assets/img/logo-hero.webp' | url }}" alt="Logotipo da Fundación Martina" width="720" height="720">
@@ -52,6 +53,41 @@ translated: true
         <p>{{ pillar.body }}</p>
       </div>
       {% endfor %}
+    </div>
+
+    <div class="team">
+      <div class="team-group team-group--technical">
+        <h3>{{ home.about.team.technicalGroup }}</h3>
+        <div class="team-grid">
+          {% for person in team %}{% if person.group == "technical" %}
+          <div class="team-card">
+            <img class="team-card__photo" src="{{ ('/assets/img/' + person.photo) | url }}" alt="" width="88" height="88">
+            <h5>{{ person.name }}</h5>
+            <p class="team-card__role">{{ person.role }}</p>
+            <details class="team-card__bio">
+              <summary>{{ home.about.team.bioToggle }}{% include "icons/neuron.svg" %}</summary>
+              <p>{{ person.bio }}</p>
+            </details>
+          </div>
+          {% endif %}{% endfor %}
+        </div>
+      </div>
+      <div class="team-group team-group--board">
+        <h3>{{ home.about.team.boardGroup }}</h3>
+        <div class="team-grid">
+          {% for person in team %}{% if person.group == "board" %}
+          <div class="team-card">
+            <img class="team-card__photo" src="{{ ('/assets/img/' + person.photo) | url }}" alt="" width="88" height="88">
+            <h5>{{ person.name }}</h5>
+            <p class="team-card__role">{{ person.role }}</p>
+            <details class="team-card__bio">
+              <summary>{{ home.about.team.bioToggle }}{% include "icons/neuron.svg" %}</summary>
+              <p>{{ person.bio }}</p>
+            </details>
+          </div>
+          {% endif %}{% endfor %}
+        </div>
+      </div>
     </div>
   </div>
 </section>

@@ -1,0 +1,134 @@
+{
+  "es": [
+    {
+      "name": "Lucía Fernández Vidal",
+      "role": "Directora científica",
+      "group": "technical",
+      "photo": "team/person-1-photo.webp",
+      "bio": "Doctora en Bioquímica por la Universidade de Santiago de Compostela, lidera las líneas de investigación genética de la Fundación. Cuenta con más de quince años de experiencia en el estudio de enfermedades neurodegenerativas raras."
+    },
+    {
+      "name": "Marcos Iglesias Pena",
+      "role": "Neurólogo pediátrico",
+      "group": "technical",
+      "photo": "team/person-2-photo.webp",
+      "bio": "Especialista en neurología pediátrica en el Complejo Hospitalario Universitario de A Coruña. Asesora a la Fundación en el seguimiento clínico de los pacientes y en el diseño de protocolos de atención temprana."
+    },
+    {
+      "name": "Sabela Rey Otero",
+      "role": "Bioinformática",
+      "group": "technical",
+      "photo": "team/person-3-photo.webp",
+      "bio": "Investigadora en bioinformática especializada en el análisis de variantes genéticas de baja prevalencia. Colabora con la Fundación en el desarrollo de herramientas para acelerar el diagnóstico genético."
+    },
+    {
+      "name": "Andrés Pombo Castro",
+      "role": "Presidente del Patronato",
+      "group": "board",
+      "photo": "team/person-4.webp",
+      "bio": "Padre de una familia afectada por una ataxia rara, impulsó la creación de la Fundación en 2026. Preside el Patronato y coordina las relaciones institucionales con hospitales y universidades."
+    },
+    {
+      "name": "Carmen Salgado Freire",
+      "role": "Vicepresidenta",
+      "group": "board",
+      "photo": "team/person-5.webp",
+      "bio": "Abogada especializada en el tercer sector, aporta al Patronato su experiencia en gobernanza de entidades sin ánimo de lucro y en la relación con administraciones públicas."
+    },
+    {
+      "name": "Diego Noya Barreiro",
+      "role": "Tesorero",
+      "group": "board",
+      "photo": "team/person-6.webp",
+      "bio": "Economista con más de una década de experiencia en gestión financiera de organizaciones no lucrativas. Supervisa la transparencia y la sostenibilidad económica de la Fundación."
+    }
+  ],
+  "en": [
+    {
+      "name": "Lucía Fernández Vidal",
+      "role": "Scientific Director",
+      "group": "technical",
+      "photo": "team/person-1-photo.webp",
+      "bio": "PhD in Biochemistry from the Universidade de Santiago de Compostela, she leads the Foundation's genetic research lines. She has over fifteen years of experience studying rare neurodegenerative diseases."
+    },
+    {
+      "name": "Marcos Iglesias Pena",
+      "role": "Paediatric neurologist",
+      "group": "technical",
+      "photo": "team/person-2-photo.webp",
+      "bio": "Specialist in paediatric neurology at the A Coruña University Hospital Complex. He advises the Foundation on clinical follow-up of patients and the design of early-care protocols."
+    },
+    {
+      "name": "Sabela Rey Otero",
+      "role": "Bioinformatician",
+      "group": "technical",
+      "photo": "team/person-3-photo.webp",
+      "bio": "Bioinformatics researcher specialising in the analysis of low-prevalence genetic variants. She collaborates with the Foundation on developing tools to speed up genetic diagnosis."
+    },
+    {
+      "name": "Andrés Pombo Castro",
+      "role": "Chair of the Board",
+      "group": "board",
+      "photo": "team/person-4.webp",
+      "bio": "Father of a family affected by a rare ataxia, he drove the creation of the Foundation in 2026. He chairs the Board of Trustees and coordinates institutional relations with hospitals and universities."
+    },
+    {
+      "name": "Carmen Salgado Freire",
+      "role": "Vice-chair",
+      "group": "board",
+      "photo": "team/person-5.webp",
+      "bio": "A lawyer specialising in the non-profit sector, she brings the Board her experience in third-sector governance and relations with public administrations."
+    },
+    {
+      "name": "Diego Noya Barreiro",
+      "role": "Treasurer",
+      "group": "board",
+      "photo": "team/person-6.webp",
+      "bio": "An economist with over a decade of experience in financial management for non-profit organisations, he oversees the Foundation's financial transparency and sustainability."
+    }
+  ],
+  "gl": [
+    {
+      "name": "Lucía Fernández Vidal",
+      "role": "Directora científica",
+      "group": "technical",
+      "photo": "team/person-1-photo.webp",
+      "bio": "Doutora en Bioquímica pola Universidade de Santiago de Compostela, lidera as liñas de investigación xenética da Fundación. Conta con máis de quince anos de experiencia no estudo de enfermidades neurodexenerativas raras."
+    },
+    {
+      "name": "Marcos Iglesias Pena",
+      "role": "Neurólogo pediátrico",
+      "group": "technical",
+      "photo": "team/person-2-photo.webp",
+      "bio": "Especialista en neuroloxía pediátrica no Complexo Hospitalario Universitario da Coruña. Asesora á Fundación no seguimento clínico dos pacientes e no deseño de protocolos de atención temperá."
+    },
+    {
+      "name": "Sabela Rey Otero",
+      "role": "Bioinformática",
+      "group": "technical",
+      "photo": "team/person-3-photo.webp",
+      "bio": "Investigadora en bioinformática especializada na análise de variantes xenéticas de baixa prevalencia. Colabora coa Fundación no desenvolvemento de ferramentas para acelerar o diagnóstico xenético."
+    },
+    {
+      "name": "Andrés Pombo Castro",
+      "role": "Presidente do Padroado",
+      "group": "board",
+      "photo": "team/person-4.webp",
+      "bio": "Pai dunha familia afectada por unha ataxia rara, impulsou a creación da Fundación en 2026. Preside o Padroado e coordina as relacións institucionais con hospitais e universidades."
+    },
+    {
+      "name": "Carmen Salgado Freire",
+      "role": "Vicepresidenta",
+      "group": "board",
+      "photo": "team/person-5.webp",
+      "bio": "Avogada especializada no terceiro sector, achega ao Padroado a súa experiencia en gobernanza de entidades sen ánimo de lucro e na relación coas administracións públicas."
+    },
+    {
+      "name": "Diego Noya Barreiro",
+      "role": "Tesoureiro",
+      "group": "board",
+      "photo": "team/person-6.webp",
+      "bio": "Economista con máis dunha década de experiencia en xestión financeira de organizacións non lucrativas. Supervisa a transparencia e a sustentabilidade económica da Fundación."
+    }
+  ]
+}
