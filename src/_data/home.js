@@ -20,7 +20,7 @@ export default {
         { icon: "butterfly", color: "blue", title: "Transformamos", body: "Convertimos la incertidumbre en conocimiento y el aislamiento en acompañamiento, divulgando la ciencia con rigor y sensibilizando a la sociedad sobre las enfermedades raras." },
       ],
       team: {
-        technicalGroup: "Comité técnico",
+        technicalGroup: "Comité Científico Asesor",
         boardGroup: "Patronato",
         bioToggle: "Ver biografía →",
       },
@@ -65,7 +65,7 @@ export default {
         { icon: "butterfly", color: "blue", title: "We transform", body: "We turn uncertainty into knowledge and isolation into companionship, sharing science with rigour and raising public awareness of rare diseases." },
       ],
       team: {
-        technicalGroup: "Technical committee",
+        technicalGroup: "Scientific Advisory Committee",
         boardGroup: "Board of trustees",
         bioToggle: "Read biography →",
       },
@@ -110,7 +110,7 @@ export default {
         { icon: "butterfly", color: "blue", title: "Transformamos", body: "Convertimos a incerteza en coñecemento e o illamento en acompañamento, divulgando a ciencia con rigor e sensibilizando á sociedade sobre as enfermidades raras." },
       ],
       team: {
-        technicalGroup: "Comité técnico",
+        technicalGroup: "Comité Científico Asesor",
         boardGroup: "Padroado",
         bioToggle: "Ver biografía →",
       },

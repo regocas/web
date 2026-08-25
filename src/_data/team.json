@@ -1,134 +1,134 @@
 {
   "es": [
     {
-      "name": "Lucía Fernández Vidal",
-      "role": "Directora científica",
-      "group": "technical",
-      "photo": "team/person-1-photo.webp",
-      "bio": "Doctora en Bioquímica por la Universidade de Santiago de Compostela, lidera las líneas de investigación genética de la Fundación. Cuenta con más de quince años de experiencia en el estudio de enfermedades neurodegenerativas raras."
-    },
-    {
-      "name": "Marcos Iglesias Pena",
-      "role": "Neurólogo pediátrico",
-      "group": "technical",
-      "photo": "team/person-2-photo.webp",
-      "bio": "Especialista en neurología pediátrica en el Complejo Hospitalario Universitario de A Coruña. Asesora a la Fundación en el seguimiento clínico de los pacientes y en el diseño de protocolos de atención temprana."
-    },
-    {
-      "name": "Sabela Rey Otero",
-      "role": "Bioinformática",
-      "group": "technical",
-      "photo": "team/person-3-photo.webp",
-      "bio": "Investigadora en bioinformática especializada en el análisis de variantes genéticas de baja prevalencia. Colabora con la Fundación en el desarrollo de herramientas para acelerar el diagnóstico genético."
-    },
-    {
-      "name": "Andrés Pombo Castro",
-      "role": "Presidente del Patronato",
+      "name": "Dra. María Jesús Sobrido",
+      "role": "Neuróloga y Genetista Clínica",
       "group": "board",
-      "photo": "team/person-4.webp",
-      "bio": "Padre de una familia afectada por una ataxia rara, impulsó la creación de la Fundación en 2026. Preside el Patronato y coordina las relaciones institucionales con hospitales y universidades."
+      "photo": "team/maria-jesus-sobrido.webp",
+      "bio": "Médica especialista en Neurología e investigadora de referencia en la genética de las enfermedades neurodegenerativas y ataxias hereditarias. Su presencia en el Patronato aporta una valiosa combinación de experiencia clínica, rigor científico y una visión profundamente humanista, clave para orientar la estrategia global y los fines fundacionales."
     },
     {
-      "name": "Carmen Salgado Freire",
-      "role": "Vicepresidenta",
+      "name": "Dr. Francisco Blanco García",
+      "role": "Reumatólogo e Investigador Clínico",
       "group": "board",
-      "photo": "team/person-5.webp",
-      "bio": "Abogada especializada en el tercer sector, aporta al Patronato su experiencia en gobernanza de entidades sin ánimo de lucro y en la relación con administraciones públicas."
+      "photo": "team/francisco-blanco.webp",
+      "bio": "Especialista de reconocido prestigio internacional en investigación biomédica y medicina regenerativa. Como miembro del Patronato, aporta su dilatada experiencia en la dirección de proyectos de gran impacto, el liderazgo de equipos de excelencia y la transferencia de conocimiento en beneficio de los pacientes con patologías complejas."
     },
     {
-      "name": "Diego Noya Barreiro",
-      "role": "Tesorero",
+      "name": "Laura Bustamante Fiaño",
+      "role": "Presidenta de la Fundación",
       "group": "board",
-      "photo": "team/person-6.webp",
-      "bio": "Economista con más de una década de experiencia en gestión financiera de organizaciones no lucrativas. Supervisa la transparencia y la sostenibilidad económica de la Fundación."
+      "photo": "team/laura-bustamante.webp",
+      "bio": "Presidenta de la Fundación Martina y una de sus fundadoras. Principal impulsora del proyecto y encargada de las actividades de coordinación y captación de fondos."
+    },
+    {
+      "name": "Dr. José Luis Labandeira García",
+      "role": "Catedrático de Anatomía Humana y Neurocientífico",
+      "group": "technical",
+      "photo": "team/jose-luis-labandeira.webp",
+      "bio": "Referente en el estudio de la neurobiología y los mecanismos de neurodegeneración. Su labor investigadora al frente de equipos académicos de excelencia permite profundizar en el conocimiento del sistema nervioso y en la identificación de dianas terapéuticas estratégicas."
+    },
+    {
+      "name": "Dr. José Tubío",
+      "role": "Genomista e Investigador Principal",
+      "group": "technical",
+      "photo": "team/jose-tubio.webp",
+      "bio": "Experto en genómica humana y biología molecular de prestigio internacional. Su trabajo en laboratorios de vanguardia se centra en el análisis del ADN y la arquitectura del genoma, aportando un conocimiento altamente especializado para descifrar la base molecular de las enfermedades raras."
+    },
+    {
+      "name": "Dr. Manuel Arias Gómez",
+      "role": "Neurólogo Clínico",
+      "group": "technical",
+      "photo": "team/manuel-arias.webp",
+      "bio": "Eminente neurólogo con una vasta trayectoria en el diagnóstico, seguimiento y manejo integral de las ataxias y trastornos del movimiento. Referente para la comunidad médica por su labor investigadora y docente, así como por su firme compromiso con la mejora de la calidad de vida de los pacientes."
     }
   ],
   "en": [
     {
-      "name": "Lucía Fernández Vidal",
-      "role": "Scientific Director",
-      "group": "technical",
-      "photo": "team/person-1-photo.webp",
-      "bio": "PhD in Biochemistry from the Universidade de Santiago de Compostela, she leads the Foundation's genetic research lines. She has over fifteen years of experience studying rare neurodegenerative diseases."
-    },
-    {
-      "name": "Marcos Iglesias Pena",
-      "role": "Paediatric neurologist",
-      "group": "technical",
-      "photo": "team/person-2-photo.webp",
-      "bio": "Specialist in paediatric neurology at the A Coruña University Hospital Complex. He advises the Foundation on clinical follow-up of patients and the design of early-care protocols."
-    },
-    {
-      "name": "Sabela Rey Otero",
-      "role": "Bioinformatician",
-      "group": "technical",
-      "photo": "team/person-3-photo.webp",
-      "bio": "Bioinformatics researcher specialising in the analysis of low-prevalence genetic variants. She collaborates with the Foundation on developing tools to speed up genetic diagnosis."
-    },
-    {
-      "name": "Andrés Pombo Castro",
-      "role": "Chair of the Board",
+      "name": "Dr. María Jesús Sobrido",
+      "role": "Neurologist and Clinical Geneticist",
       "group": "board",
-      "photo": "team/person-4.webp",
-      "bio": "Father of a family affected by a rare ataxia, he drove the creation of the Foundation in 2026. He chairs the Board of Trustees and coordinates institutional relations with hospitals and universities."
+      "photo": "team/maria-jesus-sobrido.webp",
+      "bio": "A physician specialising in neurology and a leading researcher into the genetics of neurodegenerative diseases and hereditary ataxias. Her presence on the Board brings a valuable combination of clinical experience, scientific rigour and a deeply humanistic outlook, key to guiding the Foundation's overall strategy and founding aims."
     },
     {
-      "name": "Carmen Salgado Freire",
-      "role": "Vice-chair",
+      "name": "Dr. Francisco Blanco García",
+      "role": "Rheumatologist and Clinical Researcher",
       "group": "board",
-      "photo": "team/person-5.webp",
-      "bio": "A lawyer specialising in the non-profit sector, she brings the Board her experience in third-sector governance and relations with public administrations."
+      "photo": "team/francisco-blanco.webp",
+      "bio": "A specialist of recognised international standing in biomedical research and regenerative medicine. As a member of the Board, he brings extensive experience directing high-impact projects, leading teams of excellence, and transferring knowledge for the benefit of patients with complex conditions."
     },
     {
-      "name": "Diego Noya Barreiro",
-      "role": "Treasurer",
+      "name": "Laura Bustamante Fiaño",
+      "role": "Chair of the Foundation",
       "group": "board",
-      "photo": "team/person-6.webp",
-      "bio": "An economist with over a decade of experience in financial management for non-profit organisations, he oversees the Foundation's financial transparency and sustainability."
+      "photo": "team/laura-bustamante.webp",
+      "bio": "Chair of Fundación Martina and one of its founders. The project's principal driving force, responsible for coordination and fundraising activities."
+    },
+    {
+      "name": "Dr. José Luis Labandeira García",
+      "role": "Professor of Human Anatomy and Neuroscientist",
+      "group": "technical",
+      "photo": "team/jose-luis-labandeira.webp",
+      "bio": "A leading authority on neurobiology and the mechanisms of neurodegeneration. His research work leading academic teams of excellence deepens our understanding of the nervous system and the identification of strategic therapeutic targets."
+    },
+    {
+      "name": "Dr. José Tubío",
+      "role": "Genomicist and Principal Investigator",
+      "group": "technical",
+      "photo": "team/jose-tubio.webp",
+      "bio": "An expert in human genomics and molecular biology of international standing. His work in cutting-edge laboratories focuses on DNA analysis and genome architecture, contributing highly specialised knowledge to decipher the molecular basis of rare diseases."
+    },
+    {
+      "name": "Dr. Manuel Arias Gómez",
+      "role": "Clinical Neurologist",
+      "group": "technical",
+      "photo": "team/manuel-arias.webp",
+      "bio": "An eminent neurologist with a long career in the diagnosis, monitoring and comprehensive management of ataxias and movement disorders. A reference point for the medical community for his research and teaching work, as well as his firm commitment to improving patients' quality of life."
     }
   ],
   "gl": [
     {
-      "name": "Lucía Fernández Vidal",
-      "role": "Directora científica",
-      "group": "technical",
-      "photo": "team/person-1-photo.webp",
-      "bio": "Doutora en Bioquímica pola Universidade de Santiago de Compostela, lidera as liñas de investigación xenética da Fundación. Conta con máis de quince anos de experiencia no estudo de enfermidades neurodexenerativas raras."
-    },
-    {
-      "name": "Marcos Iglesias Pena",
-      "role": "Neurólogo pediátrico",
-      "group": "technical",
-      "photo": "team/person-2-photo.webp",
-      "bio": "Especialista en neuroloxía pediátrica no Complexo Hospitalario Universitario da Coruña. Asesora á Fundación no seguimento clínico dos pacientes e no deseño de protocolos de atención temperá."
-    },
-    {
-      "name": "Sabela Rey Otero",
-      "role": "Bioinformática",
-      "group": "technical",
-      "photo": "team/person-3-photo.webp",
-      "bio": "Investigadora en bioinformática especializada na análise de variantes xenéticas de baixa prevalencia. Colabora coa Fundación no desenvolvemento de ferramentas para acelerar o diagnóstico xenético."
-    },
-    {
-      "name": "Andrés Pombo Castro",
-      "role": "Presidente do Padroado",
+      "name": "Dra. María Jesús Sobrido",
+      "role": "Neuróloga e Xenetista Clínica",
       "group": "board",
-      "photo": "team/person-4.webp",
-      "bio": "Pai dunha familia afectada por unha ataxia rara, impulsou a creación da Fundación en 2026. Preside o Padroado e coordina as relacións institucionais con hospitais e universidades."
+      "photo": "team/maria-jesus-sobrido.webp",
+      "bio": "Médica especialista en Neuroloxía e investigadora de referencia na xenética das enfermidades neurodexenerativas e ataxias hereditarias. A súa presenza no Padroado achega unha valiosa combinación de experiencia clínica, rigor científico e unha visión profundamente humanista, clave para orientar a estratexia global e os fins fundacionais."
     },
     {
-      "name": "Carmen Salgado Freire",
-      "role": "Vicepresidenta",
+      "name": "Dr. Francisco Blanco García",
+      "role": "Reumatólogo e Investigador Clínico",
       "group": "board",
-      "photo": "team/person-5.webp",
-      "bio": "Avogada especializada no terceiro sector, achega ao Padroado a súa experiencia en gobernanza de entidades sen ánimo de lucro e na relación coas administracións públicas."
+      "photo": "team/francisco-blanco.webp",
+      "bio": "Especialista de recoñecido prestixio internacional en investigación biomédica e medicina rexenerativa. Como membro do Padroado, achega a súa dilatada experiencia na dirección de proxectos de gran impacto, o liderado de equipos de excelencia e a transferencia de coñecemento en beneficio dos pacientes con patoloxías complexas."
     },
     {
-      "name": "Diego Noya Barreiro",
-      "role": "Tesoureiro",
+      "name": "Laura Bustamante Fiaño",
+      "role": "Presidenta da Fundación",
       "group": "board",
-      "photo": "team/person-6.webp",
-      "bio": "Economista con máis dunha década de experiencia en xestión financeira de organizacións non lucrativas. Supervisa a transparencia e a sustentabilidade económica da Fundación."
+      "photo": "team/laura-bustamante.webp",
+      "bio": "Presidenta da Fundación Martina e unha das súas fundadoras. Principal impulsora do proxecto e encargada das actividades de coordinación e captación de fondos."
+    },
+    {
+      "name": "Dr. José Luis Labandeira García",
+      "role": "Catedrático de Anatomía Humana e Neurocientífico",
+      "group": "technical",
+      "photo": "team/jose-luis-labandeira.webp",
+      "bio": "Referente no estudo da neurobioloxía e os mecanismos de neurodexeneración. O seu labor investigador á fronte de equipos académicos de excelencia permite afondar no coñecemento do sistema nervioso e na identificación de dianas terapéuticas estratéxicas."
+    },
+    {
+      "name": "Dr. José Tubío",
+      "role": "Xenomista e Investigador Principal",
+      "group": "technical",
+      "photo": "team/jose-tubio.webp",
+      "bio": "Experto en xenómica humana e bioloxía molecular de prestixio internacional. O seu traballo en laboratorios de vangarda céntrase na análise do ADN e a arquitectura do xenoma, achegando un coñecemento altamente especializado para descifrar a base molecular das enfermidades raras."
+    },
+    {
+      "name": "Dr. Manuel Arias Gómez",
+      "role": "Neurólogo Clínico",
+      "group": "technical",
+      "photo": "team/manuel-arias.webp",
+      "bio": "Eminente neurólogo cunha vasta traxectoria no diagnóstico, seguimento e manexo integral das ataxias e trastornos do movemento. Referente para a comunidade médica polo seu labor investigador e docente, así como polo seu firme compromiso coa mellora da calidade de vida dos pacientes."
     }
   ]
 }
