@@ -16,12 +16,15 @@ translated: true
     <h1>{{ site.name }}</h1>
     <p>{{ home.hero.body }}</p>
     <div class="hero__actions">
+      {% if site.donationsEnabled %}
       <a class="button button--donate" href="#donate">{% include "icons/butterfly.svg" %}{{ i18n[page.lang].donateCta }}</a>
+      {% endif %}
       <a class="button button--outline" href="#about">{{ home.hero.aboutCta }}</a>
     </div>
   </div>
 </section>
 
+{% if site.donationsEnabled %}
 <section class="donate-banner" id="donate">
   <img class="donate-banner__watermark" src="{{ '/assets/img/butterfly-watermark.webp' | url }}" alt="" aria-hidden="true">
   <div class="wrap donate-banner__inner">
@@ -37,6 +40,7 @@ translated: true
     </div>
   </div>
 </section>
+{% endif %}
 
 <section id="about">
   <div class="wrap">

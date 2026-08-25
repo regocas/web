@@ -12,7 +12,7 @@
   <div class="lang-switch" aria-label="{{ i18n[page.lang].languageLabel }}">
     {% for loc in site.locales %}<a href="{{ ((translationKey | translatedUrl(loc.code, collections)) or ('/' + loc.code + '/')) | url }}"{% if loc.code == page.lang %} aria-current="page"{% endif %}>{{ loc.code | upper }}</a>{% endfor %}
   </div>
-  {% if sectionNav %}
+  {% if sectionNav and site.donationsEnabled %}
   <a class="button button--donate" href="{{ ('/' + page.lang + '/#donate') | url }}">{% include "icons/butterfly.svg" %}{{ i18n[page.lang].nav.donate }}</a>
   {% endif %}
 </div>
