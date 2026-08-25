@@ -17,7 +17,7 @@ export default {
     footer: {
       explore: "Explorar",
       contact: "Contacto",
-      address: ["Avenida Linares Rivas, 18-21, 2º", "A Coruña, Galicia", "España"],
+      address: ["Calle Río Ulla, 10", "Olerios, A Coruña", "España"],
     },
     languageLabel: "Idioma",
   },
@@ -39,7 +39,7 @@ export default {
     footer: {
       explore: "Explore",
       contact: "Contact",
-      address: ["Avenida Linares Rivas, 18-21, 2º", "A Coruña, Galicia", "Spain"],
+      address: ["Calle Río Ulla, 10", "Olerios, A Coruña", "Spain"],
     },
     languageLabel: "Language",
   },
@@ -61,7 +61,7 @@ export default {
     footer: {
       explore: "Explorar",
       contact: "Contacto",
-      address: ["Avenida Linares Rivas, 18-21, 2º", "A Coruña, Galicia", "España"],
+      address: ["Rúa Río Ulla, 10", "Olerios, A Coruña", "España"],
     },
     languageLabel: "Idioma",
   },
