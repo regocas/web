@@ -32,12 +32,10 @@ export default {
     events: {
       eyebrow: "Agenda",
       upcomingTag: "Próximo evento",
-      empty: "Todavía no tenemos eventos programados. Publicaremos aquí las próximas actividades de la Fundación en cuanto se confirmen.",
     },
     research: {
       eyebrow: "Ciencia",
       heading: "Proyectos de investigación",
-      empty: "Los primeros proyectos serán evaluados por el Comité Científico Asesor y publicados aquí en cuanto se pongan en marcha.",
     },
     docs: {
       eyebrow: "Transparencia",
@@ -78,12 +76,10 @@ export default {
     events: {
       eyebrow: "Agenda",
       upcomingTag: "Upcoming event",
-      empty: "We don't have any events scheduled yet. We'll publish the Foundation's upcoming activities here as soon as they're confirmed.",
     },
     research: {
       eyebrow: "Science",
       heading: "Research projects",
-      empty: "The first projects will be reviewed by the Scientific Advisory Committee and published here once they are under way.",
     },
     docs: {
       eyebrow: "Transparency",
@@ -124,12 +120,10 @@ export default {
     events: {
       eyebrow: "Axenda",
       upcomingTag: "Vindeiro evento",
-      empty: "Aínda non temos eventos programados. Publicaremos aquí as próximas actividades da Fundación en canto se confirmen.",
     },
     research: {
       eyebrow: "Ciencia",
       heading: "Proxectos de investigación",
-      empty: "Os primeiros proxectos serán avaliados polo Comité Científico Asesor e publicados aquí en canto se poñan en marcha.",
     },
     docs: {
       eyebrow: "Transparencia",
