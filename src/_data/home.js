@@ -32,6 +32,7 @@ export default {
     events: {
       eyebrow: "Agenda",
       upcomingTag: "Próximo evento",
+      empty: "Todavía no tenemos eventos programados. Publicaremos aquí las próximas actividades de la Fundación en cuanto se confirmen.",
     },
     research: {
       eyebrow: "Ciencia",
@@ -77,6 +78,7 @@ export default {
     events: {
       eyebrow: "Agenda",
       upcomingTag: "Upcoming event",
+      empty: "We don't have any events scheduled yet. We'll publish the Foundation's upcoming activities here as soon as they're confirmed.",
     },
     research: {
       eyebrow: "Science",
@@ -122,6 +124,7 @@ export default {
     events: {
       eyebrow: "Axenda",
       upcomingTag: "Vindeiro evento",
+      empty: "Aínda non temos eventos programados. Publicaremos aquí as próximas actividades da Fundación en canto se confirmen.",
     },
     research: {
       eyebrow: "Ciencia",

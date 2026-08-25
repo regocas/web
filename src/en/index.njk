@@ -129,22 +129,26 @@ translated: true
     </div>
     {% set upcoming = events | nextUpcoming %}
     <div class="card-grid">
-      {% for event in events | sortByDate %}
-      <article class="card event-card{% if upcoming and event.date == upcoming.date %} event-card--next{% endif %}">
-        <div class="event-card__header">
-          <div class="date-badge">
-            <span class="date-badge__day">{{ event.date | dateBadgeDay }}</span>
-            <span class="date-badge__month">{{ event.date | dateBadgeMonth(page.lang) }}</span>
+      {% if events.length %}
+        {% for event in events | sortByDate %}
+        <article class="card event-card{% if upcoming and event.date == upcoming.date %} event-card--next{% endif %}">
+          <div class="event-card__header">
+            <div class="date-badge">
+              <span class="date-badge__day">{{ event.date | dateBadgeDay }}</span>
+              <span class="date-badge__month">{{ event.date | dateBadgeMonth(page.lang) }}</span>
+            </div>
+            <div>
+              {% if upcoming and event.date == upcoming.date %}<span class="tag tag--next">{{ home.events.upcomingTag }}</span>{% endif %}
+              <h3>{{ event.title }}</h3>
+              <p class="event-card__meta">{{ event.time }} · {{ event.location }}</p>
+            </div>
           </div>
-          <div>
-            {% if upcoming and event.date == upcoming.date %}<span class="tag tag--next">{{ home.events.upcomingTag }}</span>{% endif %}
-            <h3>{{ event.title }}</h3>
-            <p class="event-card__meta">{{ event.time }} · {{ event.location }}</p>
-          </div>
-        </div>
-        <p>{{ event.description }}</p>
-      </article>
-      {% endfor %}
+          <p>{{ event.description }}</p>
+        </article>
+        {% endfor %}
+      {% else %}
+        <div class="card card--placeholder">{{ home.events.empty }}</div>
+      {% endif %}
     </div>
   </div>
 </section>

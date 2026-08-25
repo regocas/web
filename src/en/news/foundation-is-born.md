@@ -2,7 +2,7 @@
 layout: article.njk
 title: "Fundación Martina is born"
 translationKey: fundacion-nace
-date: 2026-08-05
+date: 2026-09-15
 summary: "We officially present Fundación Martina, a non-profit organisation to fund research into ataxias and rare diseases related to the VPS13D gene."
 ---
 We are officially introducing **Fundación Martina**, a non-profit organisation created to

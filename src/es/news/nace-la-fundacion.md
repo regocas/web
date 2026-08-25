@@ -2,7 +2,7 @@
 layout: article.njk
 title: "Nace la Fundación Martina"
 translationKey: fundacion-nace
-date: 2026-08-05
+date: 2026-09-15
 summary: "Presentamos oficialmente la Fundación Martina, una entidad sin ánimo de lucro para financiar la investigación sobre ataxias y enfermedades raras relacionadas con el gen VPS13D."
 ---
 Presentamos oficialmente la **Fundación Martina**, una entidad sin ánimo de lucro impulsada
