@@ -24,7 +24,6 @@ translated: true
   </div>
 </section>
 
-{% if site.donationsEnabled %}
 <section class="donate-banner" id="donate">
   <img class="donate-banner__watermark" src="{{ '/assets/img/butterfly-watermark.webp' | url }}" alt="" aria-hidden="true">
   <div class="wrap donate-banner__inner">
@@ -32,15 +31,16 @@ translated: true
       <h2>{{ home.donate.heading }}</h2>
       <p>{{ home.donate.body }}</p>
     </div>
+    {% if site.donationsEnabled %}
     <div>
       <a class="button button--primary" href="#">{% include "icons/butterfly.svg" %}{{ home.donate.cta }}</a>
       <p style="color:rgba(255,255,255,0.75); font-size:0.85rem; margin-top:0.6rem;">
         {{ home.donate.pending }}
       </p>
     </div>
+    {% endif %}
   </div>
 </section>
-{% endif %}
 
 <section id="about">
   <div class="wrap">
