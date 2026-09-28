@@ -200,15 +200,21 @@ translated: true
       <h2>{{ home.docs.heading }}</h2>
       <p>{{ home.docs.intro }}</p>
     </div>
-    <div class="doc-accordion">
-      {% for doc in collections.docsEs %}
-      <details class="doc-accordion__item">
-        <summary><span>{{ doc.data.title }}{% include "icons/neuron.svg" %}</span></summary>
-        <div class="doc-accordion__body article__body">
+    <div class="docs-layout">
+      <nav class="docs-index" aria-label="{{ home.docs.heading }}">
+        <ul>
+          {% for doc in collections.docsEs %}
+          <li><a href="#doc-{{ doc.fileSlug }}">{{ doc.data.title }}</a></li>
+          {% endfor %}
+        </ul>
+      </nav>
+      <div class="doc-panels">
+        {% for doc in collections.docsEs %}
+        <div class="doc-panel article__body" id="doc-{{ doc.fileSlug }}">
           {{ doc.templateContent | safe }}
         </div>
-      </details>
-      {% endfor %}
+        {% endfor %}
+      </div>
     </div>
   </div>
 </section>
