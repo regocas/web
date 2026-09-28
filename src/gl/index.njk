@@ -7,7 +7,6 @@ translated: true
 {% set home = home | withFallback(page.lang) %}
 {% set events = events | withFallback(page.lang) %}
 {% set projects = projects | withFallback(page.lang) %}
-{% set docs = docs | withFallback(page.lang) %}
 {% set team = team | withFallback(page.lang) %}
 <section class="hero" id="home">
   <div class="wrap hero__inner">
@@ -201,18 +200,15 @@ translated: true
       <h2>{{ home.docs.heading }}</h2>
       <p>{{ home.docs.intro }}</p>
     </div>
-    <ul class="doc-list">
-      {% for doc in docs %}
-      <li>
-        <div>
-          <h3>{{ doc.title }}</h3>
-          <p>{{ doc.description }}</p>
+    <div class="doc-accordion">
+      {% for doc in collections.docsGl %}
+      <details class="doc-accordion__item">
+        <summary><span>{{ doc.data.title }}{% include "icons/neuron.svg" %}</span></summary>
+        <div class="doc-accordion__body article__body">
+          {{ doc.templateContent | safe }}
         </div>
-        <div class="doc-list__actions">
-          <a class="button button--outline" href="{{ doc.file | url }}">{{ home.docs.download }}</a>
-        </div>
-      </li>
+      </details>
       {% endfor %}
-    </ul>
+    </div>
   </div>
 </section>

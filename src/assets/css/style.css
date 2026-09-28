@@ -872,48 +872,100 @@ section {
   }
 }
 
-/* Documents list */
+/* Documents accordion */
 
-.doc-list {
-  list-style: none;
-  margin: 0;
-  padding: 0;
+.doc-accordion {
   display: grid;
   gap: 1rem;
 }
 
-.doc-list li {
+.doc-accordion__item {
   background: var(--color-surface);
   border: 1px solid var(--color-border);
   border-radius: var(--radius);
-  padding: 1.25rem 1.5rem;
+  padding: 0 1.5rem;
+}
+
+.doc-accordion__item summary {
+  list-style: none;
+  cursor: pointer;
   display: flex;
-  justify-content: space-between;
   align-items: center;
+  justify-content: space-between;
   gap: 1rem;
-  flex-wrap: wrap;
-}
-
-.doc-list h3 {
-  margin: 0 0 0.25rem;
+  padding: 1.1rem 0;
+  font-weight: 600;
   font-size: 1.05rem;
+  color: var(--color-ink);
 }
 
-.doc-list p {
-  margin: 0;
-  color: var(--color-muted);
-  font-size: 0.95rem;
+.doc-accordion__item summary::-webkit-details-marker {
+  display: none;
 }
 
-.doc-list__actions {
-  display: flex;
-  gap: 0.6rem;
-  flex-wrap: wrap;
+.doc-accordion__item summary span {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4rem;
 }
 
-.doc-list__actions .button {
-  padding: 0.5em 1.1em;
-  font-size: 0.9rem;
+.doc-accordion__item summary::after {
+  content: "+";
+  flex-shrink: 0;
+  color: var(--color-teal);
+  font-size: 1.4rem;
+  line-height: 1;
+}
+
+.doc-accordion__item[open] summary::after {
+  content: "\2212";
+}
+
+.doc-accordion__item summary:hover,
+.doc-accordion__item summary:focus-visible {
+  color: var(--color-rose);
+}
+
+.doc-accordion__item summary:hover .neuron,
+.doc-accordion__item summary:focus-visible .neuron {
+  opacity: 1;
+  transform: scale(1);
+}
+
+.doc-accordion__body {
+  border-top: 1px solid var(--color-border);
+  padding-top: 0.5rem;
+  padding-bottom: 1.5rem;
+}
+
+.doc-accordion__body.article__body {
+  margin-top: 0;
+  font-size: 1rem;
+}
+
+.doc-accordion__body h2 {
+  font-size: 1.15rem;
+  margin: 1.75rem 0 0.5rem;
+}
+
+.doc-accordion__body h3 {
+  font-size: 1rem;
+  margin: 1.25rem 0 0.35rem;
+}
+
+.doc-accordion__body h2:first-child,
+.doc-accordion__body h3:first-child {
+  margin-top: 0;
+}
+
+.doc-accordion__body ul,
+.doc-accordion__body ol {
+  margin: 1.1rem 0;
+  padding-left: 1.4rem;
+}
+
+.doc-accordion__body li {
+  margin: 0.4rem 0;
 }
 
 /* Footer */

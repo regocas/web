@@ -87,6 +87,18 @@ export default function (eleventyConfig) {
     api.getFilteredByGlob("src/gl/news/*.md").sort((a, b) => b.date - a.date)
   );
 
+  eleventyConfig.addCollection("docsEs", (api) =>
+    api.getFilteredByGlob("src/es/docs/*.md").sort((a, b) => a.data.order - b.data.order)
+  );
+
+  eleventyConfig.addCollection("docsEn", (api) =>
+    api.getFilteredByGlob("src/en/docs/*.md").sort((a, b) => a.data.order - b.data.order)
+  );
+
+  eleventyConfig.addCollection("docsGl", (api) =>
+    api.getFilteredByGlob("src/gl/docs/*.md").sort((a, b) => a.data.order - b.data.order)
+  );
+
   const NEWS_COLLECTION_BY_LANG = {
     es: "newsEs",
     en: "newsEn",
