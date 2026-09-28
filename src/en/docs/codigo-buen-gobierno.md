@@ -12,7 +12,7 @@ This Code sets out the values, principles, and standards of conduct that must go
 
 ### Article 1. Purpose
 
-The purpose of this Code of Good Governance is to establish the principles, values, and standards of conduct that must govern the organization, governance, management, and activity of the Foundation, ensuring that all of its resources are applied in a transparent, efficient, independent manner consistent with the Founding Charter, the Bylaws, and its research purposes in the biomedical, genetic, health, and general-interest fields, with particular attention to ataxias, spastic ataxias, movement disorders associated with variants of the VPS13D gene, and related neurological or neurodegenerative rare diseases.
+The purpose of this Code of Good Governance is to establish the principles, values, and standards of conduct that must govern the organization, governance, management, and activity of the Foundation, ensuring that all of its resources are applied in a transparent, efficient, independent manner consistent with the Founding Charter, the Articles, and its research purposes in the biomedical, genetic, health, and general-interest fields, with particular attention to ataxias, spastic ataxias, movement disorders associated with variants of the VPS13D gene, and related neurological or neurodegenerative rare diseases.
 
 ### Article 2. Subjective scope of application
 
@@ -24,7 +24,7 @@ This Code shall apply to institutional, scientific, financial, contractual, and 
 
 ### Article 4. Internal regulatory framework
 
-The Founding Charter, the Bylaws, the Board of Trustees Regulations, this Code, the Scientific Advisory Committee Regulations, and the internal policies approved by the Board of Trustees together make up the Foundation's internal regulatory framework. All of these shall be interpreted in a coordinated manner and in accordance with the Foundation's purposes, with applicable law and the Bylaws prevailing in the event of any contradiction.
+The Founding Charter, the Articles, the Board of Trustees Regulations, this Code, the Scientific Advisory Committee Regulations, and the internal policies approved by the Board of Trustees together make up the Foundation's internal regulatory framework. All of these shall be interpreted in a coordinated manner and in accordance with the Foundation's purposes, with applicable law and the Articles prevailing in the event of any contradiction.
 
 ### Article 5. Guiding principles
 
@@ -90,7 +90,7 @@ All communication regarding research, advances, trials, diagnoses, or therapies 
 
 The Foundation shall publish or make available, in a manner proportionate to its size and legal obligations, the following information:
 
-- The Bylaws currently in force.
+- The Articles currently in force.
 - The composition of the Board of Trustees and, where applicable, of the Scientific Advisory Committee.
 - The Code of Good Governance.
 - The annual activity report.
@@ -108,7 +108,7 @@ The annual report shall endeavor to include information on activities carried ou
 
 ### Article 16. Allocation of funds
 
-The Foundation's resources shall be allocated primarily to the fulfillment of its founding purposes and, in any case, in the percentage and under the conditions required by applicable law. Structural, representation, communication, fundraising, and administrative expenses must be reasonable, proportionate, and geared toward maximizing direct impact on research, diagnosis, scientific outreach, patient support, and programs related to VPS13D, ataxias, spastic ataxias, movement disorders, and related neurological or neurodegenerative rare diseases. Earmarked funds shall be applied in accordance with their accepted purpose, provided this is compatible with the Bylaws and the Founding Charter.
+The Foundation's resources shall be allocated primarily to the fulfillment of its founding purposes and, in any case, in the percentage and under the conditions required by applicable law. Structural, representation, communication, fundraising, and administrative expenses must be reasonable, proportionate, and geared toward maximizing direct impact on research, diagnosis, scientific outreach, patient support, and programs related to VPS13D, ataxias, spastic ataxias, movement disorders, and related neurological or neurodegenerative rare diseases. Earmarked funds shall be applied in accordance with their accepted purpose, provided this is compatible with the Articles and the Founding Charter.
 
 ### Article 17. Donations, sponsorships, bequests, and earmarked funds
 
@@ -208,7 +208,7 @@ The Foundation shall seek to disseminate this Code among trustees, members of th
 
 ### Article 37. Periodic review
 
-This Code shall be reviewed at least every three years, or sooner if warranted by regulatory changes, the Foundation's growth, practical experience, audit recommendations, amendments to the Founding Charter, the Bylaws, or the internal regulatory framework, the start of activities involving genetic data, biological samples, biobanks, or clinical trials, or significant incidents.
+This Code shall be reviewed at least every three years, or sooner if warranted by regulatory changes, the Foundation's growth, practical experience, audit recommendations, amendments to the Founding Charter, the Articles, or the internal regulatory framework, the start of activities involving genetic data, biological samples, biobanks, or clinical trials, or significant incidents.
 
 ### Article 38. Acceptance
 
@@ -218,4 +218,4 @@ Persons subject to this Code must expressly accept it where their relationship w
 
 This Code shall enter into force upon its approval by the Board of Trustees and shall remain in force until replaced or amended by express resolution.
 
-The Code shall be interpreted in coordination with the Founding Charter and the Bylaws, preserving scientific priority in relation to VPS13D, the protection of patients and families, scientific independence, transparency, and the general interest.
+The Code shall be interpreted in coordination with the Founding Charter and the Articles, preserving scientific priority in relation to VPS13D, the protection of patients and families, scientific independence, transparency, and the general interest.

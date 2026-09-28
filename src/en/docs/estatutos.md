@@ -1,5 +1,5 @@
 ---
-title: "Bylaws"
+title: "Articles"
 order: 1
 permalink: false
 ---
@@ -10,7 +10,7 @@ permalink: false
 
 Under the name "Fundación Martina", or such other name as may ultimately be admitted by the competent Registry, a foundation of general interest is established, of a permanent nature and without profit-making purpose.
 
-The Foundation shall be governed by the will of its founders as expressed in the Founding Charter and in the deed of incorporation, by these Bylaws, by the legislation on foundations of Galician interest and other applicable regulations, as well as by its internal good-governance rules validly approved.
+The Foundation shall be governed by the will of its founders as expressed in the Founding Charter and in the deed of incorporation, by these Articles, by the legislation on foundations of Galician interest and other applicable regulations, as well as by its internal good-governance rules validly approved.
 
 The Foundation shall acquire legal personality upon its registration with the competent Foundations Registry and shall thereafter enjoy full legal capacity and capacity to act for the fulfilment of its founding purposes.
 
@@ -18,13 +18,13 @@ The Foundation shall acquire legal personality upon its registration with the co
 
 The Founding Charter forms part of the constitutive act of the Foundation and expresses the founders' will to permanently commit a patrimonial endowment to the fulfilment of purposes of general interest linked to medical, biomedical, genetic, genomic, clinical and healthcare research, including the study of DNA and its variants and mutations, in rare diseases, especially ataxias, spastic ataxias, movement disorders and related neurological or neurodegenerative conditions.
 
-These Bylaws must be interpreted in accordance with the Founding Charter, as an expression of the institutional, scientific, healthcare, welfare and social purpose that inspires the creation of the Foundation, with particular attention to promoting biomedical, genetic, genomic and healthcare research into ataxias, rare diseases, movement disorders and related neurological or neurodegenerative conditions.
+These Articles must be interpreted in accordance with the Founding Charter, as an expression of the institutional, scientific, healthcare, welfare and social purpose that inspires the creation of the Foundation, with particular attention to promoting biomedical, genetic, genomic and healthcare research into ataxias, rare diseases, movement disorders and related neurological or neurodegenerative conditions.
 
 ### Article 3. Registered office
 
 The Foundation's registered office is established at Calle Río Ulla, 10, 15179 Oleiros, province of A Coruña, Autonomous Community of Galicia.
 
-The Board of Trustees may agree to change the registered office within the same municipality. Where the change exceeds that scope or entails an amendment to the Bylaws, the requirements, notifications and registrations that are legally required shall be observed.
+The Board of Trustees may agree to change the registered office within the same municipality. Where the change exceeds that scope or entails an amendment to the Articles, the requirements, notifications and registrations that are legally required shall be observed.
 
 ### Article 4. Territorial scope of activity
 
@@ -34,7 +34,7 @@ The national or international projection of certain actions shall be instrumenta
 
 ### Article 5. Duration
 
-The Foundation is established for an indefinite period, without prejudice to the grounds for dissolution provided for by law or under these Bylaws.
+The Foundation is established for an indefinite period, without prejudice to the grounds for dissolution provided for by law or under these Articles.
 
 ## Chapter II. Purpose, founding aims, activities and beneficiaries
 
@@ -117,11 +117,11 @@ The Foundation shall effectively allocate to the fulfilment of its founding purp
 
 Administration, structural, communication, fundraising and representation expenses must be reasonable, proportionate to the size of the Foundation, duly justified, and aimed at maximising the impact on biomedical research, diagnosis, scientific outreach, support for patients and families, and the fulfilment of the Foundation's purposes.
 
-The Board of Trustees shall ensure that the application of resources is effective, efficient, traceable and consistent with the Founding Charter, these Bylaws and applicable regulations, especially in relation to earmarked donations, grants, scientific agreements, multi-year projects, research programmes, biobanks, patient registries, or actions affecting minors, health data or genetic data.
+The Board of Trustees shall ensure that the application of resources is effective, efficient, traceable and consistent with the Founding Charter, these Articles and applicable regulations, especially in relation to earmarked donations, grants, scientific agreements, multi-year projects, research programmes, biobanks, patient registries, or actions affecting minors, health data or genetic data.
 
 ### Article 13. Acceptance of donations, sponsorships, bequests and earmarked funds
 
-The acceptance of donations, sponsorships, bequests, grants, agreements or earmarked funds shall be the responsibility of the Board of Trustees, in accordance with the Bylaws, the Board of Trustees' Regulations, the Code of Good Governance, and any internal policies that may be approved.
+The acceptance of donations, sponsorships, bequests, grants, agreements or earmarked funds shall be the responsibility of the Board of Trustees, in accordance with the Articles, the Board of Trustees' Regulations, the Code of Good Governance, and any internal policies that may be approved.
 
 Contributions shall not be accepted where they compromise the Foundation's scientific or institutional independence, impose conditions incompatible with its purposes, seek to predetermine scientific results or beneficiaries without proper evaluation, are of unlawful or insufficiently established origin, or may give rise to significant reputational risk.
 
@@ -163,14 +163,14 @@ The composition of the Board of Trustees shall seek to combine closeness to the 
 
 ### Article 17 bis. Chair
 
-The Chair of the Board of Trustees shall hold the ordinary institutional representation of the Foundation and shall exercise the functions assigned by law, these Bylaws, the Board of Trustees' Regulations, and the resolutions validly adopted by the Board of Trustees.
+The Chair of the Board of Trustees shall hold the ordinary institutional representation of the Foundation and shall exercise the functions assigned by law, these Articles, the Board of Trustees' Regulations, and the resolutions validly adopted by the Board of Trustees.
 
 The Chair shall, in particular:
 
 - Call meetings of the Board of Trustees.
 - Chair them, and order and direct their deliberations.
 - Grant or withdraw permission to speak in accordance with criteria of order and proper functioning.
-- Resolve ties by casting vote, unless otherwise provided by law or these Bylaws.
+- Resolve ties by casting vote, unless otherwise provided by law or these Articles.
 - Execute or order the execution of the Board of Trustees' resolutions.
 - Sign the public or private documents necessary for their execution.
 - Institutionally represent the Foundation before natural or legal persons, entities, authorities, bodies, public administrations and, where appropriate, judicial or administrative bodies.
@@ -179,7 +179,7 @@ The Chair shall always act within the framework of the Board of Trustees' resolu
 
 ### Article 17 ter. Vice-Chair
 
-The Board of Trustees may designate one or several Vice-Chairs, numbered ordinally where there is more than one, from among its members and by the procedure provided for in these Bylaws or in the Board of Trustees' Regulations.
+The Board of Trustees may designate one or several Vice-Chairs, numbered ordinally where there is more than one, from among its members and by the procedure provided for in these Articles or in the Board of Trustees' Regulations.
 
 The Vice-Chair shall, in order, replace the Chair in cases of vacancy, absence, illness, incapacity, abstention due to conflict of interest, or express delegation, and shall exercise such functions as may be entrusted by the Board of Trustees or by the Chair within the statutory framework.
 
@@ -201,9 +201,9 @@ Acceptance of office shall entail the obligation to act with diligence, loyalty,
 
 ### Article 19. Term, renewal and removal
 
-The term of office of trustees shall be four years, without prejudice to the possibility of renewal, or indefinite if so validly established in the deed of incorporation or in these Bylaws.
+The term of office of trustees shall be four years, without prejudice to the possibility of renewal, or indefinite if so validly established in the deed of incorporation or in these Articles.
 
-Trustees shall cease to hold office on the legally established grounds, through resignation, death, incapacity, dissolution of the legal person, expiry of their term, removal, serious breach of their duties, or resolution adopted in accordance with applicable regulations and these Bylaws.
+Trustees shall cease to hold office on the legally established grounds, through resignation, death, incapacity, dissolution of the legal person, expiry of their term, removal, serious breach of their duties, or resolution adopted in accordance with applicable regulations and these Articles.
 
 Removal from office must be documented and, where appropriate, notified to or registered with the competent Foundations Registry.
 
@@ -217,7 +217,7 @@ The Foundation may only contract with trustees or related persons in legally per
 
 ### Article 21. Powers of the Board of Trustees
 
-In addition to the powers conferred by law and these Bylaws, the Board of Trustees shall exercise the following functions:
+In addition to the powers conferred by law and these Articles, the Board of Trustees shall exercise the following functions:
 
 - Ensuring the fulfilment of the Foundation's purposes.
 - Approving the Foundation's overall strategy and its scientific, welfare and institutional priorities.
@@ -228,7 +228,7 @@ In addition to the powers conferred by law and these Bylaws, the Board of Truste
 - Approving the Board of Trustees' Regulations, the Code of Good Governance, and any other necessary internal policies.
 - Resolving significant conflicts of interest and authorising, where appropriate, related-party transactions.
 - Creating committees, working groups or advisory bodies.
-- Amending the Bylaws where appropriate.
+- Amending the Articles where appropriate.
 - Agreeing to the merger, dissolution and liquidation of the Foundation in the legally established terms.
 - Ensuring compliance with data-protection, biomedical-research, bioethics, transparency, tax, accounting and other applicable regulations.
 - Administering, acquiring, preserving, encumbering, disposing of and transferring the Foundation's assets and rights, subject to applicable regulations, to the Foundation's purposes, and to any authorisations or notifications that may be required.
@@ -241,7 +241,7 @@ The foregoing powers are illustrative in nature and shall be exercised without p
 
 ### Article 22. Meetings, notice, and prior documentation
 
-The Board of Trustees shall meet at least twice a year, and in any case as often as necessary to approve accounts, the action plan, budgets, significant projects, and scientific or welfare follow-up decisions, and whenever convened by the Chair, requested by the number of trustees provided for by law or these Bylaws, or necessary for the proper management of the Foundation.
+The Board of Trustees shall meet at least twice a year, and in any case as often as necessary to approve accounts, the action plan, budgets, significant projects, and scientific or welfare follow-up decisions, and whenever convened by the Chair, requested by the number of trustees provided for by law or these Articles, or necessary for the proper management of the Foundation.
 
 Notice shall be given in writing, including by email or any other means allowing proof of dispatch, with a minimum of ten days' notice, except in duly justified cases of urgency.
 
@@ -259,15 +259,15 @@ The Board of Trustees may meet in person, by remote means, or in hybrid format, 
 
 ### Article 24. Constitution, deliberation and adoption of resolutions
 
-The Board of Trustees shall be validly constituted when a majority of its members, present or represented, attend the meeting, unless the law, these Bylaws or the Board of Trustees' Regulations require a reinforced quorum for particular matters.
+The Board of Trustees shall be validly constituted when a majority of its members, present or represented, attend the meeting, unless the law, these Articles or the Board of Trustees' Regulations require a reinforced quorum for particular matters.
 
 Trustees may grant their representation to another trustee for a specific meeting, in writing and with specific instructions where they consider it appropriate. The Secretary shall keep a record of representations granted.
 
 The Chair shall order the deliberation and shall seek to ensure that all trustees have a reasonable opportunity to participate. On scientific, technical, legal, economic, healthcare or particularly complex matters, members of the Scientific Advisory Committee, external experts, legal advisers, auditors, project leads, or persons invited by reason of the subject matter may attend with a voice but no vote.
 
-Resolutions shall be adopted by simple majority of the attending trustees, present or represented, unless the law, these Bylaws or the Board of Trustees' Regulations require a qualified majority for particular matters. The votes of those who must abstain due to conflict of interest shall not be counted as votes cast.
+Resolutions shall be adopted by simple majority of the attending trustees, present or represented, unless the law, these Articles or the Board of Trustees' Regulations require a qualified majority for particular matters. The votes of those who must abstain due to conflict of interest shall not be counted as votes cast.
 
-In the event of a tie, the Chair's vote shall be decisive, unless the law, these Bylaws or the Board of Trustees' Regulations establish another rule for the specific case.
+In the event of a tie, the Chair's vote shall be decisive, unless the law, these Articles or the Board of Trustees' Regulations establish another rule for the specific case.
 
 Trustees affected by a real, potential or apparent conflict of interest must disclose it immediately and abstain from taking part in the deliberation, voting, execution or management of the affected matter, except for purely informational involvement authorised and documented by the Board of Trustees.
 
@@ -277,7 +277,7 @@ The Secretary shall record in the minutes those attending, representations, the 
 
 Resolutions concerning the following matters shall require the favourable vote of at least two thirds of the members of the Board of Trustees, unless a higher majority is required by law:
 
-- Amendment of the Bylaws.
+- Amendment of the Articles.
 - Approval or amendment of the Board of Trustees' Regulations, the Code of Good Governance, the Scientific Advisory Committee Regulations, and the essential documents of the internal regulatory system.
 - Appointment or removal of members of the Scientific Advisory Committee.
 - Acceptance of donations, bequests, sponsorships or conditional earmarked funds of significant amount or with potential reputational impact.
@@ -287,7 +287,7 @@ Resolutions concerning the following matters shall require the favourable vote o
 - Granting of general powers of attorney.
 - Merger, demerger, dissolution, liquidation, or the destination of the resulting assets.
 
-Under no circumstances shall the powers relating to the approval of the annual accounts, approval of the action plan, amendment of the Bylaws, merger, dissolution and liquidation be delegable, nor those requiring authorisation from the Protectorate or which are non-delegable under applicable regulations.
+Under no circumstances shall the powers relating to the approval of the annual accounts, approval of the action plan, amendment of the Articles, merger, dissolution and liquidation be delegable, nor those requiring authorisation from the Protectorate or which are non-delegable under applicable regulations.
 
 The Board of Trustees may delegate other powers or grant powers of attorney within legally permitted terms. Any delegation or power of attorney must be documented, specifying the powers, limits, duration and accountability arrangements, and must be notified or registered where required.
 
@@ -330,7 +330,7 @@ The Scientific Advisory Committee shall, under the terms of its Regulations, be 
 
 The Board of Trustees may create legal, economic, welfare, communications, fundraising, compliance, ethics or other committees, working groups or advisory bodies that it considers necessary for the better fulfilment of the Foundation's purposes.
 
-The creation, modification or abolition of standing bodies shall be carried out in accordance with applicable regulations, these Bylaws and, where appropriate, the notifications, authorisations or registrations required before the Protectorate or the competent Registry.
+The creation, modification or abolition of standing bodies shall be carried out in accordance with applicable regulations, these Articles and, where appropriate, the notifications, authorisations or registrations required before the Protectorate or the competent Registry.
 
 ### Article 29. Code of Good Governance
 
@@ -344,17 +344,17 @@ The internal functioning of the Board of Trustees shall be developed through Boa
 
 ### Article 31. Internal regulatory system
 
-The Founding Charter, these Bylaws, the Board of Trustees' Regulations, the Code of Good Governance, the Scientific Advisory Committee Regulations, and the internal policies approved from time to time by the Board of Trustees make up the Foundation's internal regulatory system.
+The Founding Charter, these Articles, the Board of Trustees' Regulations, the Code of Good Governance, the Scientific Advisory Committee Regulations, and the internal policies approved from time to time by the Board of Trustees make up the Foundation's internal regulatory system.
 
 All of these documents must be interpreted in a coordinated manner, in accordance with the Foundation's purposes and the principles of transparency, scientific independence, non-profit nature, efficient application of resources, data protection, bioethics, institutional integrity, protection of patients and families, and respect for the general interest.
 
-In the event of contradiction, applicable legislation and these Bylaws shall prevail, without prejudice to the obligation to adapt the remaining internal documents accordingly.
+In the event of contradiction, applicable legislation and these Articles shall prevail, without prejudice to the obligation to adapt the remaining internal documents accordingly.
 
 ## Chapter VI. Transparency, integrity, data protection and bioethics
 
 ### Article 32. Transparency and accountability
 
-The Foundation shall publish or make available, in a manner proportionate to its size and legal obligations, information relating to its Bylaws, the composition of the Board of Trustees, the composition of the Scientific Advisory Committee where applicable, the Code of Good Governance, the annual activity report, the annual accounts, the main projects funded, the general criteria for awarding grants, and aggregate data on donations, sponsorships and earmarked funds, respecting legitimate confidentiality and data-protection regulations.
+The Foundation shall publish or make available, in a manner proportionate to its size and legal obligations, information relating to its Articles, the composition of the Board of Trustees, the composition of the Scientific Advisory Committee where applicable, the Code of Good Governance, the annual activity report, the annual accounts, the main projects funded, the general criteria for awarding grants, and aggregate data on donations, sponsorships and earmarked funds, respecting legitimate confidentiality and data-protection regulations.
 
 The annual report shall seek to reflect the activities carried out, resources applied, projects funded, results achieved, impact indicators, and the degree of fulfilment of the Foundation's purposes.
 
@@ -392,11 +392,11 @@ The Foundation shall seek to ensure that its information, companionship or guida
 
 ## Chapter VII. Amendment, merger, dissolution and liquidation
 
-### Article 37. Amendment of the Bylaws
+### Article 37. Amendment of the Articles
 
-The Board of Trustees may agree to amend these Bylaws when it is expedient for the better fulfilment of the Foundation's purposes, to adapt the Foundation to regulatory changes, or to improve its organisation and functioning.
+The Board of Trustees may agree to amend these Articles when it is expedient for the better fulfilment of the Foundation's purposes, to adapt the Foundation to regulatory changes, or to improve its organisation and functioning.
 
-Any amendment to the Bylaws shall comply with applicable regulations and shall require, where appropriate, notification, authorisation, approval or registration before the Protectorate and the competent Foundations Registry.
+Any amendment to the Articles shall comply with applicable regulations and shall require, where appropriate, notification, authorisation, approval or registration before the Protectorate and the competent Foundations Registry.
 
 ### Article 38. Merger
 
@@ -416,18 +416,18 @@ Once the Foundation is dissolved, it shall be liquidated by the Board of Trustee
 
 The resulting assets shall be allocated to non-profit entities pursuing similar purposes of general interest, preferably dedicated to biomedical, genetic, genomic or healthcare research, rare diseases, ataxias, movement disorders, neurodegenerative conditions, or welfare support for patients and families, and which are subject to a comparable tax regime where legally applicable.
 
-The destination of the assets shall be determined by the Board of Trustees or by the liquidators, subject to the founding will, these Bylaws, applicable regulations, and the approval or oversight of the relevant Protectorate.
+The destination of the assets shall be determined by the Board of Trustees or by the liquidators, subject to the founding will, these Articles, applicable regulations, and the approval or oversight of the relevant Protectorate.
 
 ## Chapter VIII. Applicable regulations and interpretation
 
 ### Article 41. Applicable regulations
 
-The Foundation shall be governed by the founding will expressed in the Founding Charter and in the deed of incorporation, by these Bylaws, by the legislation on foundations of Galician interest, by such basic or supplementary state regulations as may be applicable, by the tax regulations applicable to non-profit entities and patronage should the Foundation avail itself of that regime, and by the remaining civil, administrative, healthcare, biomedical, tax, accounting, data-protection, intellectual-property, transparency and compliance regulations applicable to its activity.
+The Foundation shall be governed by the founding will expressed in the Founding Charter and in the deed of incorporation, by these Articles, by the legislation on foundations of Galician interest, by such basic or supplementary state regulations as may be applicable, by the tax regulations applicable to non-profit entities and patronage should the Foundation avail itself of that regime, and by the remaining civil, administrative, healthcare, biomedical, tax, accounting, data-protection, intellectual-property, transparency and compliance regulations applicable to its activity.
 
 ### Article 42. Interpretation
 
-Any doubts as to the interpretation of these Bylaws shall be resolved with regard to the founding will, the best achievement of the purposes of general interest, the protection of scientific independence, transparency, the protection of patients and families, the Foundation's founding focus on the study of DNA and its variants and mutations, and on ataxias, movement disorders and rare diseases, and with regard to compliance with applicable regulations.
+Any doubts as to the interpretation of these Articles shall be resolved with regard to the founding will, the best achievement of the purposes of general interest, the protection of scientific independence, transparency, the protection of patients and families, the Foundation's founding focus on the study of DNA and its variants and mutations, and on ataxias, movement disorders and rare diseases, and with regard to compliance with applicable regulations.
 
-The Foundation's internal rules must be applied consistently with these Bylaws and with the Founding Charter. The Board of Trustees shall promote their review and updating where the Foundation's development, regulatory changes, recommendations of the Scientific Advisory Committee, operational experience, or the requirements of good governance so advise.
+The Foundation's internal rules must be applied consistently with these Articles and with the Founding Charter. The Board of Trustees shall promote their review and updating where the Foundation's development, regulatory changes, recommendations of the Scientific Advisory Committee, operational experience, or the requirements of good governance so advise.
 
-These Bylaws are approved by the founders and incorporated into the Foundation's deed of incorporation, without prejudice to any adaptations that may prove necessary at the request of the authorising Notary, the Protectorate, or the competent Foundations Registry.
+These Articles are approved by the founders and incorporated into the Foundation's deed of incorporation, without prejudice to any adaptations that may prove necessary at the request of the authorising Notary, the Protectorate, or the competent Foundations Registry.

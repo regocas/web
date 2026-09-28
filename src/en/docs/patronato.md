@@ -8,7 +8,7 @@ permalink: false
 
 The Board of Trustees is the Foundation's governing, representative and administrative body. In a foundation oriented towards biomedical, genetic and health research, its actions must combine closeness to the founding purpose with institutional rigour, independence of judgement, traceability of decisions, control of conflicts of interest and reinforced protection of the trust placed in the Foundation by donors, researchers, patients and families.
 
-These Regulations develop the internal operating rules of the Board of Trustees and must be interpreted in coordination with the Bylaws, the Code of Good Governance, the Scientific Advisory Committee Regulations and the internal policies approved by the Foundation. Their purpose is to provide the Foundation with procedures that are clear, proportionate and compatible with the entity's future growth.
+These Regulations develop the internal operating rules of the Board of Trustees and must be interpreted in coordination with the Articles, the Code of Good Governance, the Scientific Advisory Committee Regulations and the internal policies approved by the Foundation. Their purpose is to provide the Foundation with procedures that are clear, proportionate and compatible with the entity's future growth.
 
 ### Article 1. Purpose
 
@@ -16,7 +16,7 @@ These Regulations govern the organisation, operation, convening, deliberation, a
 
 ### Article 2. Nature and institutional position of the Board of Trustees
 
-The Board of Trustees is the Foundation's governing, representative and administrative body and shall exercise its powers subject to the law, the Bylaws, these Regulations, the Code of Good Governance and the other internal documents approved by the Foundation.
+The Board of Trustees is the Foundation's governing, representative and administrative body and shall exercise its powers subject to the law, the Articles, these Regulations, the Code of Good Governance and the other internal documents approved by the Foundation.
 
 The Board of Trustees shall at all times act in the interest of the Foundation and of its biomedical, genetic, health and general-interest purposes, without subordination to personal, family, professional, economic, business, political or institutional interests unrelated to those purposes.
 
@@ -31,7 +31,7 @@ Members of the Board of Trustees must act in accordance with the principles of d
 
 ### Article 4. Essential functions of the Board of Trustees
 
-The Board of Trustees, in addition to the functions provided for in law and in the Bylaws, is responsible for the following essential functions:
+The Board of Trustees, in addition to the functions provided for in law and in the Articles, is responsible for the following essential functions:
 
 - Approving the Foundation's general strategy and its scientific and institutional priorities.
 - Approving the annual action plan, the internal budget, the annual accounts, the financial report and the activity report.
@@ -40,20 +40,20 @@ The Board of Trustees, in addition to the functions provided for in law and in t
 - Appointing and removing members of the Scientific Advisory Committee.
 - Approving the Scientific Advisory Committee Regulations and any amendments thereto.
 - Resolving significant conflicts of interest and authorising, where applicable, related-party transactions.
-- Resolving on amendments to the Bylaws, and on the merger, dissolution or winding-up of the Foundation, under the legally established terms.
+- Resolving on amendments to the Articles, and on the merger, dissolution or winding-up of the Foundation, under the legally established terms.
 - Ensuring that the Foundation's activity complies with the regulations on data protection, biomedical research, bioethics, transparency and regulatory compliance.
 
 ### Article 5. Composition and recommended profiles
 
-The Board of Trustees shall be composed of the number of members provided for in the Bylaws. As far as possible, its composition shall seek a balanced presence of foundational, legal, financial, healthcare, scientific, institutional, communications and fundraising profiles, appropriate to the Foundation's biomedical and research nature.
+The Board of Trustees shall be composed of the number of members provided for in the Articles. As far as possible, its composition shall seek a balanced presence of foundational, legal, financial, healthcare, scientific, institutional, communications and fundraising profiles, appropriate to the Foundation's biomedical and research nature.
 
 The inclusion of scientific or healthcare profiles on the Board of Trustees shall not replace the independent technical function of the Scientific Advisory Committee, unless expressly agreed and always subject to the conflict-of-interest regime.
 
 ### Article 6. Acceptance, term, renewal and removal
 
-Acceptance of the office of trustee shall be formalised in the manner legally established and shall entail the express acceptance of the Bylaws, of these Regulations and of the Code of Good Governance.
+Acceptance of the office of trustee shall be formalised in the manner legally established and shall entail the express acceptance of the Articles, of these Regulations and of the Code of Good Governance.
 
-The term, renewal and removal of trustees shall be governed by the Bylaws and applicable legislation. Removal shall not release a trustee from the duties of confidentiality regarding information known during the exercise of the office.
+The term, renewal and removal of trustees shall be governed by the Articles and applicable legislation. Removal shall not release a trustee from the duties of confidentiality regarding information known during the exercise of the office.
 
 ### Article 7. Gratuitousness and reimbursement of expenses
 
@@ -93,7 +93,7 @@ No resolutions may be adopted on matters not included in the agenda unless all t
 
 ### Article 13. Constitution of the Board of Trustees
 
-The Board of Trustees shall be validly constituted when the quorum requirements set out in the Bylaws or in law are met. In the absence of a specific statutory rule, the attendance of a majority of its members, present or represented, shall be sought.
+The Board of Trustees shall be validly constituted when the quorum requirements set out in the Articles or in law are met. In the absence of a specific statutory rule, the attendance of a majority of its members, present or represented, shall be sought.
 
 The Secretariat shall keep a record of those attending, proxies, apologies, guests and any abstentions due to conflicts of interest.
 
@@ -103,15 +103,15 @@ The Chair shall conduct the deliberation and shall ensure that all trustees have
 
 ### Article 15. Adoption of resolutions
 
-Resolutions shall be adopted by the majority provided for in the Bylaws or in law. In the absence of a specific provision, they shall be adopted by a simple majority of those attending, excluding from the vote those who must abstain due to a conflict of interest.
+Resolutions shall be adopted by the majority provided for in the Articles or in law. In the absence of a specific provision, they shall be adopted by a simple majority of those attending, excluding from the vote those who must abstain due to a conflict of interest.
 
 The Chair may promote the search for consensus on particularly sensitive matters, even where this is not legally required.
 
 ### Article 16. Reinforced majorities
 
-Resolutions relating to the following matters shall require a reinforced majority of at least two-thirds of the members of the Board of Trustees, unless the Bylaws or the law require a higher majority:
+Resolutions relating to the following matters shall require a reinforced majority of at least two-thirds of the members of the Board of Trustees, unless the Articles or the law require a higher majority:
 
-- Amendment of the Bylaws.
+- Amendment of the Articles.
 - Approval or amendment of these Regulations.
 - Approval or amendment of the Code of Good Governance.
 - Approval or amendment of the Scientific Advisory Committee Regulations.
@@ -140,9 +140,9 @@ Where a resolution requires execution before a notary, registration, notificatio
 
 ### Article 20. Delegations and powers of attorney
 
-The Board of Trustees may delegate powers or grant powers of attorney on the terms legally permitted and within the limitations set out in the Bylaws and in applicable regulations.
+The Board of Trustees may delegate powers or grant powers of attorney on the terms legally permitted and within the limitations set out in the Articles and in applicable regulations.
 
-Every delegation or power of attorney must be recorded in writing, specifying the powers granted, the limits, the duration and the accountability regime. Powers that may not be delegated by law or under the Bylaws may not be delegated.
+Every delegation or power of attorney must be recorded in writing, specifying the powers granted, the limits, the duration and the accountability regime. Powers that may not be delegated by law or under the Articles may not be delegated.
 
 ### Article 21. Relationship with the Scientific Advisory Committee
 
@@ -184,7 +184,7 @@ The Board of Trustees shall prepare and approve the annual accounts, financial r
 
 ### Article 28. Transparency and institutional communication
 
-The Board of Trustees shall approve the basic guidelines on transparency and institutional communication. The Foundation may publish, in proportion to its size, the Bylaws, the composition of its bodies, the Code of Good Governance, the activity report, the accounts, the main funded projects and the general criteria for granting funding.
+The Board of Trustees shall approve the basic guidelines on transparency and institutional communication. The Foundation may publish, in proportion to its size, the Articles, the composition of its bodies, the Code of Good Governance, the activity report, the accounts, the main funded projects and the general criteria for granting funding.
 
 Public communication of scientific projects must be prudent, truthful, comprehensible and must avoid unsubstantiated therapeutic expectations.
 
@@ -210,11 +210,11 @@ The Board of Trustees shall carry out, at least every two years, an internal rev
 
 ### Article 33. Review of the Regulations
 
-These Regulations shall be reviewed where warranted by the Foundation's evolution, operating experience, amendment of the Bylaws, significant regulatory changes or a well-founded recommendation from the Board of Trustees, the Secretariat or the body responsible for compliance.
+These Regulations shall be reviewed where warranted by the Foundation's evolution, operating experience, amendment of the Articles, significant regulatory changes or a well-founded recommendation from the Board of Trustees, the Secretariat or the body responsible for compliance.
 
 ### Article 34. Interpretation and precedence
 
-These Regulations shall be interpreted in coordination with the Bylaws, the Code of Good Governance, the Scientific Advisory Committee Regulations and the Foundation's internal policies. In the event of contradiction, the law and the Bylaws shall prevail.
+These Regulations shall be interpreted in coordination with the Articles, the Code of Good Governance, the Scientific Advisory Committee Regulations and the Foundation's internal policies. In the event of contradiction, the law and the Articles shall prevail.
 
 ### Article 35. Entry into force
 

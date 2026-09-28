@@ -86,11 +86,11 @@ export default {
     },
     docs: {
       eyebrow: "Transparency",
-      heading: "Bylaws and codes",
-      introHeading: "Founding Purpose",
+      heading: "Articles and codes",
+      introHeading: "Foundation object",
       introParagraphs: [
         "Fundación Martina was founded to respond to a profoundly human reality: that of people and families living with ataxias and other rare diseases of genetic, neurological or neurodegenerative origin. It takes its name from Martina, a ten-year-old girl living with a neurodegenerative ataxia for which no specific treatment currently exists, and was established with the primary aim of driving, promoting and funding medical, biomedical, genetic and clinical research into ataxias, movement disorders and rare diseases related to genetic variants and DNA mutations.",
-        "Alongside research, the Foundation's core focus, it also takes on a welfare role: accompanying, informing and supporting patients and their families, particularly when those affected are minors or in situations of vulnerability. To ensure scientific rigour and good governance, the founders approved the Bylaws, appointed the initial Board of Trustees, and established a Scientific Advisory Committee, grounding all of the Foundation's work in human dignity, solidarity, transparency and social responsibility.",
+        "Alongside research, the Foundation's core focus, it also takes on a welfare role: accompanying, informing and supporting patients and their families, particularly when those affected are minors or in situations of vulnerability. To ensure scientific rigour and good governance, the founders approved the Articles, appointed the initial Board of Trustees, and established a Scientific Advisory Committee, grounding all of the Foundation's work in human dignity, solidarity, transparency and social responsibility.",
       ],
     },
   },
