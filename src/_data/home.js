@@ -40,7 +40,11 @@ export default {
     docs: {
       eyebrow: "Transparencia",
       heading: "Estatutos y códigos",
-      intro: "Carta fundacional, estatutos y normas internas de gobierno de la Fundación Martina.",
+      introHeading: "Objeto Fundacional",
+      introParagraphs: [
+        "La Fundación Martina nace de la voluntad de sus fundadores de dar respuesta a una realidad profundamente humana: la de las personas y familias que conviven con ataxias y otras enfermedades raras de origen genético, neurológico o neurodegenerativo. Toma su nombre de Martina, una niña de diez años afectada por una ataxia neurodegenerativa para la que hoy no existe tratamiento específico, y nace con el objetivo principal de impulsar, promover y financiar la investigación médica, biomédica, genética y clínica sobre ataxias, trastornos del movimiento y enfermedades raras relacionadas con variantes genéticas y mutaciones del ADN.",
+        "Junto a la investigación, eje esencial de su actividad, la Fundación asume una dimensión asistencial: acompañar, informar y apoyar a los pacientes y sus familias, especialmente cuando se trata de menores o personas en situación de vulnerabilidad. Para garantizar el rigor científico y la buena gobernanza, los fundadores aprueban los Estatutos, designan el Patronato inicial y crean un Comité Científico Asesor, inspirando toda su actuación en la dignidad de la persona, la solidaridad, la transparencia y la responsabilidad social.",
+      ],
     },
   },
 
@@ -83,7 +87,11 @@ export default {
     docs: {
       eyebrow: "Transparency",
       heading: "Bylaws and codes",
-      intro: "Founding charter, bylaws and internal governance rules of Fundación Martina.",
+      introHeading: "Founding Purpose",
+      introParagraphs: [
+        "Fundación Martina was founded to respond to a profoundly human reality: that of people and families living with ataxias and other rare diseases of genetic, neurological or neurodegenerative origin. It takes its name from Martina, a ten-year-old girl living with a neurodegenerative ataxia for which no specific treatment currently exists, and was established with the primary aim of driving, promoting and funding medical, biomedical, genetic and clinical research into ataxias, movement disorders and rare diseases related to genetic variants and DNA mutations.",
+        "Alongside research, the Foundation's core focus, it also takes on a welfare role: accompanying, informing and supporting patients and their families, particularly when those affected are minors or in situations of vulnerability. To ensure scientific rigour and good governance, the founders approved the Bylaws, appointed the initial Board of Trustees, and established a Scientific Advisory Committee, grounding all of the Foundation's work in human dignity, solidarity, transparency and social responsibility.",
+      ],
     },
   },
 
@@ -126,7 +134,11 @@ export default {
     docs: {
       eyebrow: "Transparencia",
       heading: "Estatutos e códigos",
-      intro: "Carta fundacional, estatutos e normas internas de goberno da Fundación Martina.",
+      introHeading: "Obxecto Fundacional",
+      introParagraphs: [
+        "A Fundación Martina nace da vontade dos seus fundadores de dar resposta a unha realidade profundamente humana: a das persoas e familias que conviven con ataxias e outras enfermidades raras de orixe xenética, neurolóxica ou neurodexenerativa. Toma o seu nome de Martina, unha nena de dez anos afectada por unha ataxia neurodexenerativa para a que hoxe non existe tratamento específico, e nace co obxectivo principal de impulsar, promover e financiar a investigación médica, biomédica, xenética e clínica sobre ataxias, trastornos do movemento e enfermidades raras relacionadas con variantes xenéticas e mutacións do ADN.",
+        "Xunto á investigación, eixo esencial da súa actividade, a Fundación asume tamén unha dimensión asistencial: acompañar, informar e apoiar aos pacientes e ás súas familias, especialmente cando se trata de menores ou persoas en situación de vulnerabilidade. Para garantir o rigor científico e o bo goberno, os fundadores aproban os Estatutos, designan o Padroado inicial e crean un Comité Científico Asesor, inspirando toda a súa actuación na dignidade da persoa, a solidariedade, a transparencia e a responsabilidade social.",
+      ],
     },
   },
 };

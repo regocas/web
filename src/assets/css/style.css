@@ -874,9 +874,10 @@ section {
 
 /* Documents layout: side index + single active document panel.
    Panels are shown/hidden with :target (no JS): the linked document
-   becomes visible, and if no document is targeted yet, Estatutos shows
-   by default. The sidebar link matching the active panel is highlighted
-   the same way. */
+   becomes visible, and a no-selection intro panel ("Objeto Fundacional")
+   shows by default when no document is targeted. The sidebar link
+   matching the active document is highlighted; no link is highlighted
+   for the default intro state. */
 
 .docs-layout {
   display: grid;
@@ -915,8 +916,7 @@ section {
 .docs-layout:has(#doc-estatutos:target) a[href="#doc-estatutos"],
 .docs-layout:has(#doc-codigo-buen-gobierno:target) a[href="#doc-codigo-buen-gobierno"],
 .docs-layout:has(#doc-comite-cientifico:target) a[href="#doc-comite-cientifico"],
-.docs-layout:has(#doc-patronato:target) a[href="#doc-patronato"],
-.docs-layout:not(:has(.doc-panel:target)) a[href="#doc-estatutos"] {
+.docs-layout:has(#doc-patronato:target) a[href="#doc-patronato"] {
   color: var(--color-teal-dark);
   font-weight: 600;
   border-left-color: var(--color-teal);
@@ -958,8 +958,12 @@ section {
   display: block;
 }
 
-.doc-panels:not(:has(.doc-panel:target)) .doc-panel:first-child {
+.doc-panel--intro {
   display: block;
+}
+
+.doc-panels:has(.doc-panel:target) .doc-panel--intro {
+  display: none;
 }
 
 .doc-panel.article__body {

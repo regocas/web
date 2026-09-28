@@ -198,7 +198,6 @@ translated: true
     <div class="section__intro">
       <p class="section__eyebrow">{{ home.docs.eyebrow }}</p>
       <h2>{{ home.docs.heading }}</h2>
-      <p>{{ home.docs.intro }}</p>
     </div>
     <div class="docs-layout">
       <nav class="docs-index" aria-label="{{ home.docs.heading }}">
@@ -209,6 +208,12 @@ translated: true
         </ul>
       </nav>
       <div class="doc-panels">
+        <div class="doc-panel doc-panel--intro article__body">
+          <h2>{{ home.docs.introHeading }}</h2>
+          {% for paragraph in home.docs.introParagraphs %}
+          <p>{{ paragraph }}</p>
+          {% endfor %}
+        </div>
         {% for doc in collections.docsEs %}
         <div class="doc-panel article__body" id="doc-{{ doc.fileSlug }}">
           {{ doc.templateContent | safe }}
