@@ -39,7 +39,7 @@ export default {
     },
     docs: {
       eyebrow: "Transparencia",
-      heading: "Documentos de la fundación",
+      heading: "Estatutos y códigos",
       intro: "Carta fundacional, estatutos y normas internas de gobierno de la Fundación Martina.",
     },
   },
@@ -82,7 +82,7 @@ export default {
     },
     docs: {
       eyebrow: "Transparency",
-      heading: "Foundation documents",
+      heading: "Bylaws and codes",
       intro: "Founding charter, bylaws and internal governance rules of Fundación Martina.",
     },
   },
@@ -125,7 +125,7 @@ export default {
     },
     docs: {
       eyebrow: "Transparencia",
-      heading: "Documentos da fundación",
+      heading: "Estatutos e códigos",
       intro: "Carta fundacional, estatutos e normas internas de goberno da Fundación Martina.",
     },
   },
