@@ -208,6 +208,22 @@ translated: true
         </ul>
       </nav>
       <div class="doc-panels">
+        <details class="docs-index__toggle">
+          <summary class="docs-index__toggle-summary">
+            {% include "icons/menu.svg" %}
+            <span class="docs-index__toggle-label">
+              <span class="docs-index__toggle-label-item" data-label="intro">{{ home.docs.introHeading }}</span>
+              {% for doc in collections.docsEs %}
+              <span class="docs-index__toggle-label-item" data-label="{{ doc.fileSlug }}">{{ doc.data.title }}</span>
+              {% endfor %}
+            </span>
+          </summary>
+          <ul class="docs-index__toggle-panel">
+            {% for doc in collections.docsEs %}
+            <li><a href="#doc-{{ doc.fileSlug }}">{{ doc.data.title }}</a></li>
+            {% endfor %}
+          </ul>
+        </details>
         <div class="doc-panel doc-panel--intro article__body">
           <h2>{{ home.docs.introHeading }}</h2>
           {% for paragraph in home.docs.introParagraphs %}

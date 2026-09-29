@@ -24,7 +24,28 @@
   --wrap-width: 72rem;
   --radius: 0.6rem;
   --space: clamp(1rem, 0.7rem + 1vw, 1.5rem);
+
+  /* Real height of .site-topbar (header + optional announce bar), kept
+     in sync by nav.js. This fallback approximates the header alone,
+     for the instant before JS runs. */
+  --topbar-height: 4.25rem;
 }
+
+/* Breakpoints used throughout this file (always `rem`, never `px`, so they
+   scale with the user's root font size):
+   40rem (640px)  — narrow-phone treatments (announce bar, wing dividers,
+                     footer columns, article watermark): the default
+                     "mobile" cutoff, reused wherever a component just
+                     needs to go to a single/compact column.
+   48rem (768px)  — Documents sidebar (.docs-layout): wider than the
+                     default because the fixed 13rem index column needs
+                     more room before it's worth collapsing.
+   55rem (880px)  — Hero image: un-floats the portrait image once the
+                     side-by-side text wrap gets too narrow to read well.
+   64rem (1024px) — Nav: switches from the desktop nav row to the
+                     hamburger menu. Deliberately wider than the visual
+                     breakpoints above — the nav row itself needs more
+                     horizontal room than the page content does. */
 
 * {
   box-sizing: border-box;
@@ -147,7 +168,7 @@ h1, h2, h3, h4 {
 
 h1 { font-size: clamp(1.9rem, 1.5rem + 2vw, 2.8rem); font-weight: 900; }
 h2 { font-size: clamp(1.5rem, 1.3rem + 1vw, 2rem); }
-h3 { font-size: 1.2rem; }
+h3 { font-size: clamp(1.1rem, 1rem + 0.4vw, 1.25rem); }
 
 a {
   color: var(--color-teal);
@@ -569,6 +590,13 @@ section {
   pointer-events: none;
 }
 
+@media (max-width: 40rem) {
+  .donate-banner__watermark {
+    width: 11rem;
+    opacity: 0.15;
+  }
+}
+
 .donate-banner__inner {
   position: relative;
   z-index: 1;
@@ -881,16 +909,16 @@ section {
 
 .docs-layout {
   display: grid;
-  grid-template-columns: 13rem 1fr;
+  grid-template-columns: 13rem minmax(0, 1fr);
   gap: 2rem;
 }
 
-.docs-index ul {
+.docs-index > ul {
   list-style: none;
   margin: 0;
   padding: 0;
   position: sticky;
-  top: 5.5rem;
+  top: calc(var(--topbar-height) + 1rem);
   display: grid;
   gap: 0.3rem;
 }
@@ -913,6 +941,16 @@ section {
   background: var(--color-surface);
 }
 
+/* Docs index: sticky vertical list on desktop, CSS-only <details>
+   hamburger on mobile — same pattern as .nav-toggle in the header. On
+   mobile the toggle lives inside .doc-panels (not the sidebar nav) and
+   is itself sticky, so it stays visible — showing which document is
+   open — while scrolling through that document's text below it. */
+
+.docs-index__toggle {
+  display: none;
+}
+
 .docs-layout:has(#doc-estatutos:target) a[href="#doc-estatutos"],
 .docs-layout:has(#doc-codigo-buen-gobierno:target) a[href="#doc-codigo-buen-gobierno"],
 .docs-layout:has(#doc-comite-cientifico:target) a[href="#doc-comite-cientifico"],
@@ -923,20 +961,76 @@ section {
   background: var(--color-surface);
 }
 
+/* Which title shows in the toggle summary — mirrors which .doc-panel
+   is :target, defaulting to the intro label when none is. */
+
+.docs-index__toggle-label-item {
+  display: none;
+}
+
+.docs-index__toggle-label-item[data-label="intro"] {
+  display: inline;
+}
+
+.doc-panels:has(.doc-panel:target) .docs-index__toggle-label-item[data-label="intro"] {
+  display: none;
+}
+
+.doc-panels:has(#doc-estatutos:target) .docs-index__toggle-label-item[data-label="estatutos"],
+.doc-panels:has(#doc-codigo-buen-gobierno:target) .docs-index__toggle-label-item[data-label="codigo-buen-gobierno"],
+.doc-panels:has(#doc-comite-cientifico:target) .docs-index__toggle-label-item[data-label="comite-cientifico"],
+.doc-panels:has(#doc-patronato:target) .docs-index__toggle-label-item[data-label="patronato"] {
+  display: inline;
+}
+
 @media (max-width: 48rem) {
   .docs-layout {
-    grid-template-columns: 1fr;
+    grid-template-columns: minmax(0, 1fr);
   }
 
-  .docs-index ul {
-    position: static;
-    grid-auto-flow: column;
-    overflow-x: auto;
-    padding-bottom: 0.35rem;
+  .docs-index > ul {
+    display: none;
   }
 
-  .docs-index a {
-    white-space: nowrap;
+  .docs-index__toggle {
+    display: block;
+    position: sticky;
+    top: var(--topbar-height);
+    z-index: 2;
+    margin: -1.5rem -1.5rem 1rem;
+    background: var(--color-surface);
+    border-bottom: 1px solid var(--color-border);
+    border-radius: var(--radius) var(--radius) 0 0;
+  }
+
+  .docs-index__toggle-summary {
+    list-style: none;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    gap: 0.6rem;
+    padding: 0.9rem 1.5rem;
+    font-weight: 600;
+    color: var(--color-ink);
+  }
+
+  .docs-index__toggle-summary::-webkit-details-marker {
+    display: none;
+  }
+
+  .docs-index__toggle-summary svg {
+    width: 1.25rem;
+    height: 1.25rem;
+    flex-shrink: 0;
+    color: var(--color-teal);
+  }
+
+  .docs-index__toggle-panel {
+    list-style: none;
+    margin: 0;
+    padding: 0 1.5rem 1rem;
+    display: grid;
+    gap: 0.3rem;
   }
 }
 
@@ -951,7 +1045,7 @@ section {
 
 .doc-panel {
   display: none;
-  scroll-margin-top: 5rem;
+  scroll-margin-top: calc(var(--topbar-height) + 1rem);
 }
 
 .doc-panel:target {
@@ -1067,7 +1161,7 @@ section {
   text-align: right;
 }
 
-@media (max-width: 640px) {
+@media (max-width: 40rem) {
   .site-footer__cols {
     grid-template-columns: 1fr;
     gap: 1.75rem;
