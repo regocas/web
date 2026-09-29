@@ -1163,8 +1163,14 @@ section {
 
 @media (max-width: 40rem) {
   .site-footer__cols {
-    grid-template-columns: 1fr;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: start;
     gap: 1.75rem;
+  }
+
+  .site-footer__brand {
+    grid-column: 1 / -1;
+    justify-self: center;
   }
 }
 
