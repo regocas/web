@@ -1106,7 +1106,7 @@ section {
 
 .site-footer__cols {
   display: grid;
-  grid-template-columns: 1.2fr 1fr 1fr 1fr;
+  grid-template-columns: 1.2fr 1fr 1fr;
   align-items: center;
   gap: 2rem;
   padding-bottom: 2rem;
@@ -1165,16 +1165,21 @@ section {
   text-align: right;
 }
 
-@media (max-width: 55rem) {
+@media (max-width: 40rem) {
   .site-footer__cols {
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: 1fr auto;
     align-items: start;
-    gap: 1.75rem;
+    gap: 1.75rem 1.25rem;
   }
 
   .site-footer__brand {
     grid-column: 1 / -1;
     justify-self: center;
+  }
+
+  /* Hover-only decoration; on phones it just steals width from the links. */
+  .site-footer__col .neuron {
+    display: none;
   }
 }
 

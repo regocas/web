@@ -97,22 +97,11 @@
         </div>
 
         <div class="site-footer__col">
-          <h3>{{ i18n[page.lang].footer.explore }}</h3>
-          <ul>
-            <li><a href="{{ ('/' + page.lang + '/#about') | url }}">{{ i18n[page.lang].nav.about }}{% include "icons/neuron.svg" %}</a></li>
-            <li><a href="{{ ('/' + page.lang + '/#news') | url }}">{{ i18n[page.lang].nav.news }}{% include "icons/neuron.svg" %}</a></li>
-            <li><a href="{{ ('/' + page.lang + '/#events') | url }}">{{ i18n[page.lang].nav.events }}{% include "icons/neuron.svg" %}</a></li>
-            <li><a href="{{ ('/' + page.lang + '/#research') | url }}">{{ i18n[page.lang].nav.research }}{% include "icons/neuron.svg" %}</a></li>
-            <li><a href="{{ ('/' + page.lang + '/#docs') | url }}">{{ i18n[page.lang].nav.docs }}{% include "icons/neuron.svg" %}</a></li>
-          </ul>
-        </div>
-
-        <div class="site-footer__col">
           <h3>{{ i18n[page.lang].footer.contact }}</h3>
           <address>
             {% for line in i18n[page.lang].footer.address %}<span>{{ line }}</span>
             {% endfor %}
-            <a href="mailto:{{ site.email }}">{{ site.email }}</a>
+            <a href="mailto:{{ site.email }}">{{ site.email | replace("@", "@<wbr>") | safe }}</a>
           </address>
         </div>
 
