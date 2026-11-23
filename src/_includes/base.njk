@@ -97,7 +97,6 @@
         </div>
 
         <div class="site-footer__col">
-          <h3>{{ i18n[page.lang].footer.contact }}</h3>
           <address>
             {% for line in i18n[page.lang].footer.address %}<span>{{ line }}</span>
             {% endfor %}
@@ -106,7 +105,6 @@
         </div>
 
         <div class="site-footer__col">
-          <h3>{{ i18n[page.lang].footer.legal }}</h3>
           <ul>
             {% for key, label in i18n[page.lang].footer.legalLinks %}<li><a href="{{ (key | translatedUrl(page.lang, collections)) | url }}">{{ label }}{% include "icons/neuron.svg" %}</a></li>
             {% endfor %}
