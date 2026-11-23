@@ -17,7 +17,7 @@ export default {
     footer: {
       explore: "Explorar",
       contact: "Contacto",
-      address: ["Calle Río Ulla, 10", "Olerios, A Coruña", "España"],
+      address: ["Calle Río Ulla, 10", "15179 Oleiros, A Coruña", "España"],
     },
     languageLabel: "Idioma",
   },
@@ -39,7 +39,7 @@ export default {
     footer: {
       explore: "Explore",
       contact: "Contact",
-      address: ["Calle Río Ulla, 10", "Olerios, A Coruña", "Spain"],
+      address: ["Calle Río Ulla, 10", "15179 Oleiros, A Coruña", "Spain"],
     },
     languageLabel: "Language",
   },
@@ -61,7 +61,7 @@ export default {
     footer: {
       explore: "Explorar",
       contact: "Contacto",
-      address: ["Rúa Río Ulla, 10", "Olerios, A Coruña", "España"],
+      address: ["Rúa Río Ulla, 10", "15179 Oleiros, A Coruña", "España"],
     },
     languageLabel: "Idioma",
   },

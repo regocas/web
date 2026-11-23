@@ -112,6 +112,7 @@
           <address>
             {% for line in i18n[page.lang].footer.address %}<span>{{ line }}</span>
             {% endfor %}
+            <a href="mailto:{{ site.email }}">{{ site.email }}</a>
           </address>
         </div>
       </div>
