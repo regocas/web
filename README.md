@@ -72,9 +72,8 @@ covered by either license — see [`CONTENT-LICENSE.md`](CONTENT-LICENSE.md) for
 
 ## Notes
 
-- `src/_data/site.js` currently has a **placeholder production URL**
-  (`https://fundacionmartina.org`) used for canonical links, hreflang, the sitemap, and
-  Open Graph tags — update it once the real domain is live.
+- `src/_data/site.js` `url` is the production domain (`https://lafundacionmartina.org`),
+  used for canonical links, hreflang, the sitemap, and Open Graph tags.
 - The English and Galician homepages and the one example research project in
   `projects.json` were added as a translation trial; the project entry is placeholder
   content and should be reviewed/replaced with real data before launch.

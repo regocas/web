@@ -1,8 +1,7 @@
 export default {
   name: "Fundación Martina",
   email: "info@lafundacionmartina.org",
-  // TODO: replace with the real production domain once it's live.
-  url: "https://fundacionmartina.org",
+  url: "https://lafundacionmartina.org",
   // TODO: flip to true once a real donation link is configured, and the
   // "Donar ahora" / "Colabora con la investigación" buttons and the donate
   // banner section will show up again automatically (nav, hero, homepage).
