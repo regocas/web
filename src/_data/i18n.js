@@ -18,7 +18,9 @@ export default {
       explore: "Explorar",
       contact: "Contacto",
       address: ["Calle Río Ulla, 10", "15179 Oleiros, A Coruña", "España"],
+      legal: "Aviso legal y privacidad",
     },
+    lastUpdated: "Última actualización",
     languageLabel: "Idioma",
   },
   en: {
@@ -40,7 +42,9 @@ export default {
       explore: "Explore",
       contact: "Contact",
       address: ["Calle Río Ulla, 10", "15179 Oleiros, A Coruña", "Spain"],
+      legal: "Legal notice & privacy",
     },
+    lastUpdated: "Last updated",
     languageLabel: "Language",
   },
   gl: {
@@ -62,7 +66,9 @@ export default {
       explore: "Explorar",
       contact: "Contacto",
       address: ["Rúa Río Ulla, 10", "15179 Oleiros, A Coruña", "España"],
+      legal: "Aviso legal e privacidade",
     },
+    lastUpdated: "Última actualización",
     languageLabel: "Idioma",
   },
 };

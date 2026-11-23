@@ -6,6 +6,25 @@ export default {
   // "Donar ahora" / "Colabora con la investigación" buttons and the donate
   // banner section will show up again automatically (nav, hero, homepage).
   donationsEnabled: false,
+  // Legal identity shown on the "Aviso legal y privacidad" page
+  // (src/<lang>/aviso-legal.md / legal-notice.md), whose text follows the
+  // lawyer-reviewed model "Textos legales de la web" (Oct 2026).
+  // TODO: fill in before launch — the bracketed values render as-is.
+  legal: {
+    fullName: "Fundación Martina: Impulso Vital para las Ataxias y Enfermedades Raras",
+    taxId: "G93843597",
+    registry: "[nº de inscripción]",
+    deedDate: "2026-09-29",
+    notary: "Raúl Muñoz Maestre",
+    protocol: "7707/2026",
+    // Address for exercising data-protection rights.
+    privacyEmail: "info@lafundacionmartina.org",
+    // Data Protection Officer: null = still to decide (renders a placeholder),
+    // false = not appointed, or a string with the DPO's name and contact.
+    dpo: false,
+    // Town whose courts have jurisdiction (Aviso legal §8).
+    courts: "A Coruña",
+  },
   year: 2026,
   tagline: {
     es: [

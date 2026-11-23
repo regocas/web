@@ -1,0 +1,19 @@
+---
+layout: base.njk
+sectionNav: true
+---
+<article class="article">
+  <div class="article__hero">
+    <img class="article__hero-watermark" src="{{ '/assets/img/butterfly-watermark.webp' | url }}" alt="" aria-hidden="true">
+    <div class="wrap article__wrap">
+      <p class="article__back"><a href="{{ ('/' + page.lang + '/') | url }}">← {{ i18n[page.lang].nav.home }}</a></p>
+      <h1>{{ title }}</h1>
+      {% if updated %}<p class="news-card__date">{{ i18n[page.lang].lastUpdated }}: {{ updated | dateLong(page.lang) }}</p>{% endif %}
+    </div>
+  </div>
+  <div class="wrap article__wrap">
+    <div class="article__body article__body--page">
+      {{ content | safe }}
+    </div>
+  </div>
+</article>

@@ -1161,6 +1161,14 @@ section {
   text-align: right;
 }
 
+.site-footer__copyright a {
+  color: inherit;
+}
+
+.site-footer__copyright a:hover {
+  color: var(--color-teal);
+}
+
 @media (max-width: 40rem) {
   .site-footer__cols {
     grid-template-columns: repeat(2, 1fr);
@@ -1245,6 +1253,30 @@ section {
 .article__body img {
   border-radius: var(--radius);
   margin: 2rem auto;
+}
+
+/* Standalone pages (page.njk), e.g. the legal notice */
+
+.article__hero h1 + .news-card__date {
+  margin: 0.6rem 0 0;
+}
+
+.article__body--page h2 {
+  font-size: 1.3rem;
+  margin: 2.25rem 0 0.5rem;
+}
+
+.article__body--page h3 {
+  font-size: 1.05rem;
+  margin: 1.5rem 0 0.35rem;
+}
+
+.article__body--page ul {
+  padding-left: 1.25rem;
+}
+
+.article__body--page li + li {
+  margin-top: 0.35rem;
 }
 
 /* Print */

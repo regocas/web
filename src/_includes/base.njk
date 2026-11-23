@@ -117,7 +117,10 @@
         </div>
       </div>
 
-      <p class="site-footer__copyright">© {{ site.year }} {{ site.name }}</p>
+      <p class="site-footer__copyright">
+        © {{ site.year }} {{ site.name }}
+        · <a href="{{ ('legal' | translatedUrl(page.lang, collections)) | url }}">{{ i18n[page.lang].footer.legal }}</a>
+      </p>
     </div>
   </footer>
 
