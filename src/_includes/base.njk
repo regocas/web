@@ -100,7 +100,7 @@
           <address>
             {% for line in i18n[page.lang].footer.address %}<span>{{ line }}</span>
             {% endfor %}
-            <a href="mailto:{{ site.email }}">{{ site.email | replace("@", "@<wbr>") | safe }}</a>
+            <a href="mailto:{{ site.email }}"><span>{{ site.email | replace("@", "@<wbr>") | safe }}</span></a>
           </address>
         </div>
 
