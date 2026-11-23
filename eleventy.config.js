@@ -99,16 +99,13 @@ export default function (eleventyConfig) {
     api.getFilteredByGlob("src/gl/docs/*.md").sort((a, b) => a.data.order - b.data.order)
   );
 
-  const NEWS_COLLECTION_BY_LANG = {
-    es: "newsEs",
-    en: "newsEn",
-    gl: "newsGl",
-  };
-
+  // Finds the page in `targetLang` sharing this translationKey (news
+  // articles, the legal notice, …) so links can point at the equivalent page.
   eleventyConfig.addFilter("translatedUrl", (translationKey, targetLang, collections) => {
     if (!translationKey) return null;
-    const list = collections[NEWS_COLLECTION_BY_LANG[targetLang]] || [];
-    const match = list.find((item) => item.data.translationKey === translationKey);
+    const match = collections.all.find(
+      (item) => item.data.translationKey === translationKey && item.data.lang === targetLang
+    );
     return match ? match.url : null;
   });
 
