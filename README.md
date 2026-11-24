@@ -53,16 +53,24 @@ showing a Spanish-language article inside another locale's page.
 
 ## Deployment
 
-Pushing to `main` builds and deploys the site to GitHub Pages automatically via
-`.github/workflows/deploy.yml`. One-time setup on GitHub: **Settings → Pages → Build and
-deployment → Source: GitHub Actions**.
+Pushing to `main` builds the site and publishes it to the `gh-pages` branch via
+`.github/workflows/deploy.yml`. One-time setup on GitHub, after that branch exists:
+**Settings → Pages → Build and deployment → Source: Deploy from a branch → `gh-pages` /
+`(root)`**.
+
+Each pull request from a branch in this repo also gets a preview, built by
+`.github/workflows/preview.yml` into `gh-pages` under `pr-preview/pr-<number>/` (e.g.
+`https://<user>.github.io/<repo>/pr-preview/pr-12/`). A bot comment on the PR links to
+it, and the preview is removed when the PR is closed or merged. PRs from forks don't get
+previews, since their workflow token can't push to `gh-pages`.
 
 Without a custom domain, a GitHub Pages project site is served from
 `https://<user>.github.io/<repo>/`, not the domain root — so the workflow builds with
 `PATH_PREFIX=/<repo-name>/` (via `pathPrefix` in `eleventy.config.js`), which every
 internal link/asset path in the templates respects through the `url` filter. Adding a
 `CNAME` file at the repo root (Settings → Pages → Custom domain) switches this back to
-`/` automatically on the next deploy — no other changes needed.
+`/` automatically on the next deploy (previews included), and the workflow copies it
+into `gh-pages` so the custom domain survives each deploy — no other changes needed.
 
 ## License
 

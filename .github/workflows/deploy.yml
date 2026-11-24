@@ -6,16 +6,14 @@ on:
   workflow_dispatch:
 
 permissions:
-  contents: read
-  pages: write
-  id-token: write
+  contents: write
 
 concurrency:
   group: pages
   cancel-in-progress: true
 
 jobs:
-  build:
+  deploy:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
@@ -30,8 +28,8 @@ jobs:
       # No custom domain configured yet (no CNAME file at the repo root) means
       # GitHub Pages serves this project site from /<repo-name>/ instead of
       # the domain root, so every internal link needs that prefix. Once a
-      # CNAME file is added (Settings > Pages > Custom domain), this switches
-      # to "/" automatically and paths resolve at the domain root instead.
+      # CNAME file is added, this switches to "/" automatically and paths
+      # resolve at the domain root instead.
       - name: Determine path prefix
         run: |
           if [ -f CNAME ]; then
@@ -44,18 +42,19 @@ jobs:
         env:
           PATH_PREFIX: ${{ env.PATH_PREFIX }}
 
-      - uses: actions/configure-pages@v5
+      # Branch-based Pages runs Jekyll unless told not to, and Jekyll drops
+      # files starting with "_". The custom domain must also live in the
+      # published branch, or each deploy would detach it.
+      - name: Prepare output for Pages
+        run: |
+          touch _site/.nojekyll
+          if [ -f CNAME ]; then cp CNAME _site/CNAME; fi
 
-      - uses: actions/upload-pages-artifact@v3
+      # Publishes to the gh-pages branch, which Pages serves. PR previews
+      # (see preview.yml) live in its pr-preview/ folder, so leave it alone.
+      - uses: JamesIves/github-pages-deploy-action@v4
         with:
-          path: _site
-
-  deploy:
-    needs: build
-    runs-on: ubuntu-latest
-    environment:
-      name: github-pages
-      url: ${{ steps.deployment.outputs.page_url }}
-    steps:
-      - id: deployment
-        uses: actions/deploy-pages@v4
+          folder: _site
+          branch: gh-pages
+          clean-exclude: pr-preview/
+          force: false
